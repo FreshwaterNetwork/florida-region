@@ -16,9 +16,9 @@
     ],
     "initialExtent": [
         -87.2,
-        25.1,
+        24.6,
         -77.8,
-        33.3
+        31.8
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
