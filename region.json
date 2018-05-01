@@ -2,7 +2,7 @@
     "googleAnalyticsPropertyId": "28810260-22",
 	"googleUrlShortenerApiKey": "AIzaSyCGRjZtPUN9LG1wG83JGUvEqHimxYjC510",
 	"titleMain": { "text": "Freshwater Network", "url": ""},
-	"titleDetail": { "text": "Wisconsin’s Waters, Wetlands and Watersheds", "url": ""},
+	"titleDetail": { "text": "Florida Freshwater", "url": ""},
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "https://www.nature.org/ourinitiatives/urgentissues/water/index.htm?intc=nature.tnav.ourwork" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -11,13 +11,14 @@
 	{ "text": "Louisiana", "url": "http://maps.freshwaternetwork.org/louisiana/" },
         { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
-		{ "text": "Alabama Demo", "url": "http://maps.freshwaternetwork.org/alabama-demo/" }
+		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
+		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
-        -95.5,
-        41.00,
-        -84.00,
-        47.50
+        -88.2,
+        24.1,
+        -78.8,
+        31.3
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
@@ -32,10 +33,7 @@
         "legend_display",
         "full_extent",
         "subregion_toggle",
-		"water_security",
-		"benefits_explorer",
-		"water_funds",
-		"water_share"
+
     ],
     "print": {
          "printServerUrl": "http://cumulus-web-adapter-1827610810.us-west-1.elb.amazonaws.com/arcgis/rest/services/nascience/ny_ExportWebMap/GPServer/Export%20Web%20Map",
@@ -51,13 +49,13 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
    "identifyEnabled": true,
     "launchpad": {
-            "title": "Wisconsin’s Waters, Wetlands, and Watersheds",
+            "title": "Explore Florida Freshwater",
             "description": "<p>Wisconsin’s waters and wetlands help our state thrive, benefiting people, fish, and wildlife. Explore the following mapping tools to better understand these important resources and guide decisions around protecting and restoring them.</p>",
             "plugins": [
 				{
 					"title": "Wetlands by Design: A Watershed Approach",
 					"description": "Wetlands can improve water quality, reduce flood impacts, help streams flow, provide habitat, and offer many other services. But not all wetlands provide the same services to the same degree! To find the best sites to restore and protect—and the most promising watersheds to work in—check out the Wetlands and Watersheds Explorer.",
-					"pluginName": "wetlands-watershed-explorer"
+					"pluginName": "regional-planning"
 				}
             ]
       }
