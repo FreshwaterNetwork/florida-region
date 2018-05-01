@@ -3,12 +3,6 @@
 	  {
  		"repo": "regional-planning",
  		"name": "regional-planning"
- 	},
-	  
-	{
-		"repo": "wetlands-watershed-explorer",
-		"name": "wetlands-watershed-explorer",
-	 	"org": "FreshwaterNetwork"
-	}
+ 	  }
    ]
 }
