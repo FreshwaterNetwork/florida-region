@@ -4,8 +4,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Wisconsin",
-            "name": "WI_Map_Layers"
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Florida",
+            "name": "FL_Map_Layers"
         },
         "includeLayers": [
             {
@@ -15,12 +15,7 @@
 			{
                "name": "Watersheds",
 			   "includeAllLayers": true
-			},
-			{
-				"name": "Political Boundaries",
-				"includeAllLayers": true
 			}
-
 		]
 	}
 ]
