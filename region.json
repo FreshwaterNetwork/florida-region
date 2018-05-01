@@ -15,9 +15,9 @@
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
-        -88.2,
+        -87.2,
         24.1,
-        -78.8,
+        -77.8,
         31.3
     ],
     "basemaps": [
