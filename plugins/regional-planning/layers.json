@@ -13,6 +13,9 @@
 			   "includeAllLayers": true
 			},
 			{
+               "name": "OFS_3_6_2017_wm"
+			},
+			{
                "name": "Watersheds",
 			   "includeAllLayers": true
 			}
