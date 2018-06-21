@@ -22,7 +22,7 @@
 		]
 	},
 	{
-        "displayName": "Base Data",
+        "displayName": "Demo Map",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
