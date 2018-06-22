@@ -12,7 +12,7 @@
         { "text": "Mississippi", "url": "http://maps.freshwaternetwork.org/mississippi/" },
 		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/northeast/" },
 		{ "text": "Wisconsin", "url": "http://maps.freshwaternetwork.org/wisconsin/" },
-		{ "text": "Northeast Region", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
+		{ "text": "Chesapeake", "url": "http://maps.freshwaternetwork.org/chesapeake/" }
     ],
     "initialExtent": [
         -87.2,
@@ -28,6 +28,7 @@
     ],
     "pluginOrder": [
 		"launchpad",
+		"Aquifers",
 	    "zoom_to",
         "measure",
         "legend_display",
