@@ -61,7 +61,7 @@
 				},
 				{
 					"title": "Aquifers",
-					"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+					"description": "The Floridan aquifer is the major source of drinking water for Florida. While it is replenished by rain water, expanding development reduces the natural areas that recharge it.  This reduction, combined with water use from Florida’s increasing population, has the aquifer under stress. These factors reduce the quantity of groundwater as well as the quality. The Nature Conservancy completed a study that looked at the area of highest recharge in Florida and developed a map of how withdrawals and nitrogen loads vary across it.<img src='img/GS_aquifer.gif'> Florida’s iconic springs are in this recharge area and are severely affected by the changes to the groundwater flow and increased nutrient pollution.</br>With this app users can examine the impacts of groundwater withdrawals and nitrogen loading across the region.",
 					"pluginName": "Aquifers"
 				}
             ]
