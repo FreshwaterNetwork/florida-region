@@ -9,14 +9,11 @@
         },
         "includeLayers": [
             {
-               "name": "Rivers and Streams",
+               "name": "Yellow River Sedimentation Assessment",
 			   "includeAllLayers": true
 			},
 			{
-               "name": "OFS_3_6_2017_wm"
-			},
-			{
-               "name": "Watersheds",
+               "name": "Supplemental Layers",
 			   "includeAllLayers": true
 			}
 		]

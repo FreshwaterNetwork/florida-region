@@ -9,19 +9,11 @@
         },
         "includeLayers": [
             {
-               "name": "Footprint",
+               "name": "Supplementary",
 			   "includeAllLayers": true
 			},
 			{
-               "name": "Groundwater",
-			   "includeAllLayers": true
-			},
-			{
-               "name": "Nitrogen",
-			   "includeAllLayers": true
-			},
-			{
-               "name": "HotSpots",
+               "name": "Aquifer Footprint",
 			   "includeAllLayers": true
 			}
 		]
