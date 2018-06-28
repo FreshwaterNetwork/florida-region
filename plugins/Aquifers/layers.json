@@ -9,11 +9,11 @@
         },
         "includeLayers": [
             {
-               "name": "Supplementary",
+               "name": "Supplementary ",
 			   "includeAllLayers": true
 			},
 			{
-               "name": "Aquifer Footprint",
+               "name": "Aquifer Footprint ",
 			   "includeAllLayers": true
 			}
 		]
