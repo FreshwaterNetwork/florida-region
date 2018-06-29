@@ -56,7 +56,7 @@
             "plugins": [
 				{
 					"title": "Regional Planning",
-					"description": "The Yellow River is one of 3 large rivers that flows into Pensacola Bay.  An assessment of the Yellow River watershed identified 140 impaired river corridor sites and identified moderate or high degrees of sedimentation risk at 339 unpaved road crossings.  Use this app to examine the assessment data.  Read a short summary of the project or the full report. <img src='/img/GS_sediment.png'>",
+					"description": "The Yellow River is one of 3 large rivers that flows into Pensacola Bay.  An assessment of the Yellow River watershed identified 140 impaired river corridor sites and identified moderate or high degrees of sedimentation risk at 339 unpaved road crossings.  Use this app to examine the assessment data.  Read a short summary of the project or the full report. <img src='img/GS_sediment.png'>",
 					"pluginName": "regional-planning"
 				},
 				{
