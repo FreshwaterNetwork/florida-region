@@ -55,13 +55,13 @@
             "description": "<p>Florida's waters, wetlands and springs help our state thrive, benefiting people, fish, and wildlife. Explore the following mapping tools to better understand these important resources and guide decisions around protecting and restoring them.</p>",
             "plugins": [
 				{
-					"title": "Regional Planning",
+					"title": "Sedimentation",
 					"description": "The Yellow River is one of 3 large rivers that flows into Pensacola Bay.  An assessment of the Yellow River watershed identified 140 impaired river corridor sites and identified moderate or high degrees of sedimentation risk at 339 unpaved road crossings.  Use this app to examine the assessment data.  Read a short summary of the project or the full report. <img src='img/GS_sediment.png'>",
 					"pluginName": "regional-planning"
 				},
 				{
 					"title": "Aquifers",
-					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a short summary of the project or the full report. <img src='img/GS_aquifer_resize.png'>Florida’s iconic springs are in this recharge area and are severely affected by the changes to the groundwater flow and increased nutrient pollution.</br> With this app users can examine the impacts of groundwater withdrawals and nitrogen loading across the region.",
+					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a short summary of the project or the full report. <img src='img/GS_aquifer_resize.png'>",
 					"pluginName": "Aquifers"
 				}
             ]
