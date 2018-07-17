@@ -4,17 +4,66 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Florida",
-            "name": "FL_map_layers"
+            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services?token=8khvb09CBThCYbnYqrKbKe3Vab7VZuYcJpwxhCxsRZ-I9BKnolhiZKB-ugNDOr6jGpz7D6Vwea9D4UiqvG0Lb02kg0-SjtHzgUb8VHNHonLb8VxUnaB6x0mxrXdYLmjqsMWo6hB7cmnFxZS6hiV-I9nvh_CbTpGNLxzYUSJYmH9QhxAon4QFlpoUVyg3CilEFP8bsQt3uOugZ6U5SPH1PQ..",
+            "name": "FLFW_Layers"
         },
         "includeLayers": [
-            {
-               "name": "Yellow River Sedimentation Assessment",
-			   "includeAllLayers": true
+			{
+			   "name": "FL_StreamRiver_named_web"
 			},
 			{
-               "name": "Supplemental Layers",
-			   "includeAllLayers": true
+			   "name": "FL_HUC12_web"
+			},
+			{
+			   "name": "FL_HUC8_web"
+			},
+			{
+			   "name": "FL_HUC12_web_1"
+			},
+			{
+			   "name": "FL_HUC8_web_1"
+			},
+			{
+			   "name": "FL_StreamRiver_named_web_1"
+			},
+			{
+			   "name": "WBDHU10_FLAALGA"
+			},
+			{
+			   "name": "WBDHU12_FLAALGA"
+			},
+			{
+			   "name": "WBDHU6_FLAALGA"
+			},
+			{
+			   "name": "WBDHU8_FLAALGA"
+			},
+			{
+			   "name": "Demo_Watershed"
+			},
+			{
+			   "name": "Yellow_Watershed"
+			},
+			{
+			   "name": "Impoundments"
+			},
+			{
+			   "name": "Focal_Areas"
+			},
+			{
+			   "name": "AOI"
+			},
+			{
+			   "name": "River_sites"
+			},
+			{
+			   "name": "unpaved_road_crossing"
+			},
+			{
+			   "name": "USGS_stream_gauges"
+			},
+			{
+			   "name": "Major_Streams_Rivers"
 			}
 		]
 	}
