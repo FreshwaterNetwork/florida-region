@@ -3,7 +3,7 @@
         "displayName": "Yellow River",
         "server": {
             "type": "ags",
-            "layerType": "dynamic",
+            "layerType": "feature",
             "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services",
             "name": "FLFW_Layers"
         },
