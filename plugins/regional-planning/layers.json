@@ -4,8 +4,8 @@
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services/FLFW_Layers/FeatureServer",
-			"name": ""
+            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services",
+			"name": "FLFW_Layers"
         },
         "includeLayers": [
 			{
