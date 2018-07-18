@@ -5,10 +5,16 @@
             "type": "ags",
             "layerType": "dynamic",
             "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services/FLFW_Layers/FeatureServer",
-			"name": "",
-			"includeAllLayers": true
-        }
-        
+			"name": ""			
+        },
+        "includeLayers": [
+		    {
+               "name": "River_sites"
+			},
+			{
+               "name": "unpaved_road_crossing"
+			}
+		]
 	}
 
 ]
