@@ -5,67 +5,10 @@
             "type": "ags",
             "layerType": "feature",
             "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services/FLFW_Layers/FeatureServer",
-			"name": "FLFW_Layers"
-        },
-        "includeLayers": [
-			{
-			   "name": "FL_StreamRiver_named_web"
-			},
-			{
-			   "name": "FL_HUC12_web"
-			},
-			{
-			   "name": "FL_HUC8_web"
-			},
-			{
-			   "name": "FL_HUC12_web_1"
-			},
-			{
-			   "name": "FL_HUC8_web_1"
-			},
-			{
-			   "name": "FL_StreamRiver_named_web_1"
-			},
-			{
-			   "name": "WBDHU10_FLAALGA"
-			},
-			{
-			   "name": "WBDHU12_FLAALGA"
-			},
-			{
-			   "name": "WBDHU6_FLAALGA"
-			},
-			{
-			   "name": "WBDHU8_FLAALGA"
-			},
-			{
-			   "name": "Demo_Watershed"
-			},
-			{
-			   "name": "Yellow_Watershed"
-			},
-			{
-			   "name": "Impoundments"
-			},
-			{
-			   "name": "Focal_Areas"
-			},
-			{
-			   "name": "AOI"
-			},
-			{
-			   "name": "River_sites"
-			},
-			{
-			   "name": "unpaved_road_crossing"
-			},
-			{
-			   "name": "USGS_stream_gauges"
-			},
-			{
-			   "name": "Major_Streams_Rivers"
-			}
-		]
+			"name": "",
+			"includeAllLayers": true
+        }
+        
 	}
 
 ]
