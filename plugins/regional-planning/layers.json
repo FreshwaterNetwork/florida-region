@@ -4,7 +4,7 @@
         "server": {
             "type": "FeatureServer",
             "layerType": "Feature",
-            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services/FLFW_Layers/FeatureServer",
+            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/arcgis/rest/services",
             "name": "FLFW_Layers"
         },
         "includeLayers": [
