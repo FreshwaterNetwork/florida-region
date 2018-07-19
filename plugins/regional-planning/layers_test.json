@@ -1,0 +1,12 @@
+[
+    {
+        "displayName": "Yellow River",
+        "server": {
+            "type": "ags",
+			"layerType": "dynamic",
+            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/FLFW_Layers/FeatureServer/15",
+			"name": "River_sites"			
+        }
+	}
+
+]

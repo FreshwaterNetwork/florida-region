@@ -3,10 +3,20 @@
         "displayName": "Yellow River",
         "server": {
             "type": "ags",
-			"layerType": "dynamic",
-            "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services/FLFW_Layers/FeatureServer/15",
-			"name": "River_sites"			
-        }
+            "layerType": "dynamic",
+            "url": "http://cirrus-web-adapter-241060755.us-west-1.elb.amazonaws.com/arcgis/rest/services/FN_Florida",
+            "name": "FL_map_layers"
+        },
+        "includeLayers": [
+            {
+               "name": "Yellow River Sedimentation Assessment",
+			   "includeAllLayers": true
+			},
+			{
+               "name": "Supplemental Layers",
+			   "includeAllLayers": true
+			}
+		]
 	}
 
 ]
