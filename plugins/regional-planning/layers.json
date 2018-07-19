@@ -5,7 +5,7 @@
             "type": "ags",
 			"layerType": "dynamic",
             "url": "https://services.arcgis.com/F7DSX1DSNSiWmOqh/ArcGIS/rest/services",
-			"name": "FLFW_Layers"			
+			"name": "FLFW_Layers (FeatureServer)"			
         },
         "includeLayers": [
 		    {
