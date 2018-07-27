@@ -1,0 +1,186 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>AFA_RECHARGE_MERGE_wm</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>SJR: Groundwater recharge to the Upper Floridan aquifer, as presented in this map, is the replenishment of water in aquifer storage by the downward infiltration of rainfall. The regional geologic structure and the lithologic and hydraulic characteristics of the surficial aquifer, the intermediate confining unit, and the Upper Floridan aquifer determine the areas and rates of recharge to the UFA in the St. Johns River Water Management District.SR: This map depicts recharge potential (high, medium, or low) to the Floridan Aquifer System based on a region's DRASTIC values for Soil, Basin, Confining Hawthorn Isopach, and Depth to Water. TOTAL = (S x SOIL) + (B x BAS) + (C x ISOP) + (D x DTWN). Where: S = Soil Hydrologic Group weight B = Basin Type weight C = Thickness of Hawthorn weight D = Depth to water weight The total values were divided into three groups and assigned either a low, medium, or high ranking. The 5-foot potentiometric contour was used to divide discharge areas along the coast from potential recharge areas. The recharge potential map should not be used for site specific recharge assessments nor should it be used as a means to estimate recharge.USGS: USGS W.R. Aucott 1988 Report 88-4057</abstract>
+      <purpose>The following sources were joined using the merge tool. If regional coverage was not available, USGS recharge was used. 
+SJR: Maps of groundwater recharge areas are useful planning tools for groundwater resource management. Sections 373.0391, 373.0395, and 373.0397, Florida Statutes, require the water management districts to provide recharge area information to local governments and planning agencies. Recharge areas of the Upper Floridan aquifer in the St. Johns River Water Management District (SJRWMD) were mapped using a geographic information system to analyze the geologic and hydrologic factors that determine recharge.
+SR: Mapped groundwater recharge for the Suwannee River Water Management District. 
+USGS: USGS W.R. Aucott 1988 Report 88-4057</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-87.626010</westbc>
+        <eastbc>-80.030955</eastbc>
+        <northbc>30.996990</northbc>
+        <southbc>24.545221</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Aquifer recharge</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>SJRWMD, SRWMD, USGS</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>AFA_RECHARGE_MERGE_wm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RechargeFinal</attrlabl>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>rechg_areas.pat</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHG_AREAS#</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHG_AREAS-ID</attrlabl>
+        <attrdef>User-defined feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RECHARGE_TO_FAS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>GRID_CODE</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcInfo Coverage</formname>
+          <transize>0.265</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180727</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

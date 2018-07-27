@@ -52,7 +52,7 @@
    "identifyEnabled": true,
     "launchpad": {
             "title": "Explore Florida Freshwater",
-            "description": "<p>Florida's waters, wetlands and springs help our state thrive, benefiting people, fish, and wildlife. Explore the following mapping tools to better understand these important resources and guide decisions around protecting and restoring them.</p>",
+            "description": "<p>With thousands of lakes, scenic rivers, more springs than anywhere else in the world and the unique Everglades ecosystem, freshwater is an integral part of Florida’s iconic landscape. But in the state with the third highest population in the country, over 20 million people, freshwater cannot be taken for granted. The mapping tools below allow you to explore data relevant to Florida’s freshwater resources.</p>",
             "plugins": [
 				{
 					"title": "Sedimentation",
@@ -61,7 +61,7 @@
 				},
 				{
 					"title": "Aquifers",
-					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a short summary of the project or the full report. <img src='img/GS_aquifer_resize.png'>",
+					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the area of highest recharge in Florida and developed a map of how water use and nitrogen loads vary across it. Use this app to examine the results of the analysis.  Read a<a href=’img/AFA Summary.pdf'target='_blank'><b> short summary</b><a></br> of the project or the <a href=’img/AFA Final Report web.pdf'target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_resize.png'>",
 					"pluginName": "Aquifers"
 				}
             ]

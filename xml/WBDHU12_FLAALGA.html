@@ -1,0 +1,371 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:res="http://www.esri.com/metadata/res/" xmlns:gmd="http://www.isotc211.org/2005/gmd"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><style type="text/css" id="internalStyle" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+    body {
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #000020;
+      background-color: #FFFFFF;
+    }
+    div.itemDescription {
+      margin-right: 2em;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    h1.idHeading {
+      color: #008FAF;
+      text-align: center;
+    }
+    h1.gpHeading {
+      color: black;
+    }
+    span.idHeading {
+      color: #007799;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    img {
+      width: 210px;
+      border-width: 1px;
+      border-style: outset;
+    }
+    img.center {
+      text-align: center;
+      display: block;
+      border-color: #666666;
+    }
+    img.enclosed {
+      width: 60%;
+    }
+    img.gp {
+      width: auto;
+      border-style: none;
+      margin-top: -1.2em;
+    }
+    .noThumbnail {
+      color: #888888;
+      font-size: 1.2em;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 3em 3em;
+      position: relative;
+      text-align: center;
+      width: 210px;
+      height: 140px;
+    }
+    .noContent {
+      color: #888888;
+    }
+    .itemInfo p {
+      margin-top: -0.1em;
+    }
+    .itemInfo img {
+      width: auto;
+      border: none;
+    }
+    .gpItemInfo p {
+      margin-top: -1.2em;
+    }
+    div.box {
+      margin-left: 1em;
+    }
+    div.hide {
+      display: none;
+    }
+    div.show {
+      display: block;
+    }
+    span.hide {
+      display: none;
+    }
+    span.show {
+      display: inline-block;
+    }
+    .backToTop a {
+      color: #DDDDDD;
+      font-style: italic;
+      font-size: 0.85em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h2.gp {
+      color: #00709C;
+    }
+    .gpsubtitle {
+      color: black;
+      font-size: 1.2em;
+	  font-weight: normal;
+    }
+    .gptags {
+      color: black;
+      font-size: 0.8em;
+	  font-weight: normal;
+    }
+    .head {
+      font-size: 1.3em;
+    }
+    a:link {
+      color: #098EA6;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #098EA6;
+      text-decoration: none;
+    }
+    a:link:hover, a:visited:hover {
+      color: #007799;
+      background-color: #C6E6EF;
+    }
+    h2.iso a {
+      color: #007799;
+      font-weight: bold;
+    }
+    .iso a:link {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:visited {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:link:hover, .iso a:visited:hover {
+      color: #006688;
+      background-color: #C6E6EF;
+    }
+    h2.fgdc a {
+      color: #888888;
+      font-weight: bold;
+    }
+    .fgdc a:link {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:visited {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:link:hover, .fgdc a:visited:hover {
+      color: #777777;
+      background-color: #C6E6EF;
+    }
+	h3 {
+		font-size: 1em; 
+		color: #00709C;
+	}
+    .backToTop {
+      color: #AAAAAA;
+      margin-left: 1em;
+    }
+    p.gp {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    ul ul {
+      list-style-type: square;
+    }
+    ul li.iso19139heading {
+      margin-left: -3em;
+	  list-style: none;
+	  font-weight: bold;
+      color: #666666;
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dl.iso {
+      background-color: #F2F9FF;
+    }
+    dl.esri {
+      background-color: #F2FFF9;
+    }
+    dl.subtype {
+      width: 40em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+    dt {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dt {
+      width: 60%;
+      float: left;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dt.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    dd {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dd {
+      float: left;
+      width: 25%;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dd.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    .isoElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .esriElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .element {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #666666;
+    }
+    unknownElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #333333;
+    }
+    .sync {
+      color: #006400;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .syncOld {
+      color: #888888;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .textOld {
+      color: #999999;
+    }
+    .code {
+      font-family: monospace;
+    }
+    pre.wrap {
+      width: 96%;
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 1em;
+      margin: 0 0 0 0;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre.wrap p {
+      padding-bottom: 1em;
+    }
+    pre.wrap li {
+      padding-bottom: 1em;
+    }
+    pre.wrap br {
+      display: block;
+    }
+    pre.gp {
+      font-family: Courier New, Courier, monospace;
+      line-height: 1.2em;
+    }
+    .gpcode {
+      margin-left:15px;
+      border: 1px dashed #ACC6D8;
+      padding: 10px;
+      background-color:#EEEEEE;
+      height: auto;
+      overflow: scroll; 
+      width: 96%;
+    }
+    tr {
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      background: #dddddd;
+      vertical-align: bottom;
+      font-size: 0.8em;
+    }
+    td {
+      background: #EEEEEE;
+      color: black;
+      vertical-align: top;
+      font-size: 0.8em;
+    }
+    td.description {
+      background: white;
+    }
+  </style><script type="text/javascript" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+	/*  */
+		function hideShow(divID) {
+			var item = document.getElementById(divID);
+			var itemShow = document.getElementById(divID + 'Show');
+			var itemHide = document.getElementById(divID + 'Hide');
+			if (item) {
+				if (item.className == 'hide') {
+					item.className='show';
+					itemShow.className='hide';
+					itemHide.className='show';
+				}
+				else {
+					item.className='hide';
+					itemShow.className='show';
+					itemHide.className='hide';
+				}
+			}
+		}
+	/*  */
+	</script></head><body oncontextmenu="return true"><div class="itemDescription" id="overview" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><h1 class="idHeading"><span class="noContent">No Title</span></h1><div class="center"><div class="noThumbnail">Thumbnail Not Available</div></div><p class="center"><span class="idHeading">Tags</span><br /><span class="noContent">There are no tags for this item.</span></p><br /><div class="itemInfo"><span class="idHeading">Summary</span><p><span class="noContent">There is no summary for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Description</span><p><span class="noContent">There is no description for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Credits</span><p><span class="noContent">There are no credits for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Use limitations</span><p><span class="noContent">There are no access and use limitations for this item.</span></p></div><p><span class="idHeading">Extent</span><br /><span class="noContent">There is no extent for this item.</span></p><p><div><span class="idHeading">Scale Range</span></div><span class="noContent">There is no scale range for this item.</span></p></div><h2 class="iso head"><a href="#arcgisMetadata" onclick="hideShow('arcgisMetadata')" title="Content created and managed in the Description tab">ArcGIS Metadata <span id="arcgisMetadataShow" class="hide">▼</span><span id="arcgisMetadataHide" class="show">►</span></a></h2><div class="show" id="arcgisMetadata" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><div class="box arcgis"><div><a name="TopArcGIS" id="TopArcGIS" /></div><h2 class="iso"><a onclick="hideShow('ID0EBA')" href="#ID0EBA">Fields 
+			<span id="ID0EBAShow" class="hide">▼</span><span id="ID0EBAHide" class="show">►</span></a></h2><div class="show" id="ID0EBA"><a onclick="hideShow('ID0EABA')" href="#ID0EABA"><dt><span class="esriElement">Details for object</span> WBDHU12_FLAALGA 
+					<span id="ID0EABAShow" class="hide">▼</span><span id="ID0EABAHide" class="show">►</span></dt></a><div class="show" id="ID0EABA"><dl><a onclick="hideShow('ID0EUABA')" href="#ID0EUABA"><dt><span class="esriElement">Field</span> FID</dt> 
+		<span id="ID0EUABAShow" class="hide">▼</span><span id="ID0EUABAHide" class="show">►</span></a><div class="show" id="ID0EUABA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Internal feature number.</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">Esri</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Sequential unique whole numbers that are automatically generated.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EUABA')" href="#ID0EUABA">Hide Field FID ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ETABA')" href="#ID0ETABA"><dt><span class="esriElement">Field</span> TNMID</dt> 
+		<span id="ID0ETABAShow" class="hide">▼</span><span id="ID0ETABAHide" class="show">►</span></a><div class="show" id="ID0ETABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ETABA')" href="#ID0ETABA">Hide Field TNMID ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ESABA')" href="#ID0ESABA"><dt><span class="esriElement">Field</span> LOADDATE</dt> 
+		<span id="ID0ESABAShow" class="hide">▼</span><span id="ID0ESABAHide" class="show">►</span></a><div class="show" id="ID0ESABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ESABA')" href="#ID0ESABA">Hide Field LOADDATE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ERABA')" href="#ID0ERABA"><dt><span class="esriElement">Field</span> METASOURCE</dt> 
+		<span id="ID0ERABAShow" class="hide">▼</span><span id="ID0ERABAHide" class="show">►</span></a><div class="show" id="ID0ERABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ERABA')" href="#ID0ERABA">Hide Field METASOURCE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EQABA')" href="#ID0EQABA"><dt><span class="esriElement">Field</span> SOURCEDATA</dt> 
+		<span id="ID0EQABAShow" class="hide">▼</span><span id="ID0EQABAHide" class="show">►</span></a><div class="show" id="ID0EQABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EQABA')" href="#ID0EQABA">Hide Field SOURCEDATA ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EPABA')" href="#ID0EPABA"><dt><span class="esriElement">Field</span> SOURCEORIG</dt> 
+		<span id="ID0EPABAShow" class="hide">▼</span><span id="ID0EPABAHide" class="show">►</span></a><div class="show" id="ID0EPABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EPABA')" href="#ID0EPABA">Hide Field SOURCEORIG ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EOABA')" href="#ID0EOABA"><dt><span class="esriElement">Field</span> SOURCEFEAT</dt> 
+		<span id="ID0EOABAShow" class="hide">▼</span><span id="ID0EOABAHide" class="show">►</span></a><div class="show" id="ID0EOABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EOABA')" href="#ID0EOABA">Hide Field SOURCEFEAT ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ENABA')" href="#ID0ENABA"><dt><span class="esriElement">Field</span> GNIS_ID</dt> 
+		<span id="ID0ENABAShow" class="hide">▼</span><span id="ID0ENABAHide" class="show">►</span></a><div class="show" id="ID0ENABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ENABA')" href="#ID0ENABA">Hide Field GNIS_ID ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EMABA')" href="#ID0EMABA"><dt><span class="esriElement">Field</span> AREAACRES</dt> 
+		<span id="ID0EMABAShow" class="hide">▼</span><span id="ID0EMABAHide" class="show">►</span></a><div class="show" id="ID0EMABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EMABA')" href="#ID0EMABA">Hide Field AREAACRES ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ELABA')" href="#ID0ELABA"><dt><span class="esriElement">Field</span> AREASQKM</dt> 
+		<span id="ID0ELABAShow" class="hide">▼</span><span id="ID0ELABAHide" class="show">►</span></a><div class="show" id="ID0ELABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ELABA')" href="#ID0ELABA">Hide Field AREASQKM ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EKABA')" href="#ID0EKABA"><dt><span class="esriElement">Field</span> STATES</dt> 
+		<span id="ID0EKABAShow" class="hide">▼</span><span id="ID0EKABAHide" class="show">►</span></a><div class="show" id="ID0EKABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EKABA')" href="#ID0EKABA">Hide Field STATES ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EJABA')" href="#ID0EJABA"><dt><span class="esriElement">Field</span> HUC12</dt> 
+		<span id="ID0EJABAShow" class="hide">▼</span><span id="ID0EJABAHide" class="show">►</span></a><div class="show" id="ID0EJABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EJABA')" href="#ID0EJABA">Hide Field HUC12 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EIABA')" href="#ID0EIABA"><dt><span class="esriElement">Field</span> NAME</dt> 
+		<span id="ID0EIABAShow" class="hide">▼</span><span id="ID0EIABAHide" class="show">►</span></a><div class="show" id="ID0EIABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EIABA')" href="#ID0EIABA">Hide Field NAME ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EHABA')" href="#ID0EHABA"><dt><span class="esriElement">Field</span> HUTYPE</dt> 
+		<span id="ID0EHABAShow" class="hide">▼</span><span id="ID0EHABAHide" class="show">►</span></a><div class="show" id="ID0EHABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EHABA')" href="#ID0EHABA">Hide Field HUTYPE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EGABA')" href="#ID0EGABA"><dt><span class="esriElement">Field</span> HUMOD</dt> 
+		<span id="ID0EGABAShow" class="hide">▼</span><span id="ID0EGABAHide" class="show">►</span></a><div class="show" id="ID0EGABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EGABA')" href="#ID0EGABA">Hide Field HUMOD ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EFABA')" href="#ID0EFABA"><dt><span class="esriElement">Field</span> TOHUC</dt> 
+		<span id="ID0EFABAShow" class="hide">▼</span><span id="ID0EFABAHide" class="show">►</span></a><div class="show" id="ID0EFABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EFABA')" href="#ID0EFABA">Hide Field TOHUC ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EEABA')" href="#ID0EEABA"><dt><span class="esriElement">Field</span> SHAPE</dt> 
+		<span id="ID0EEABAShow" class="hide">▼</span><span id="ID0EEABAHide" class="show">►</span></a><div class="show" id="ID0EEABA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Feature geometry.</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">Esri</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Coordinates defining the features.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EEABA')" href="#ID0EEABA">Hide Field SHAPE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EDABA')" href="#ID0EDABA"><dt><span class="esriElement">Field</span> NONCONTRIB</dt> 
+		<span id="ID0EDABAShow" class="hide">▼</span><span id="ID0EDABAHide" class="show">►</span></a><div class="show" id="ID0EDABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EDABA')" href="#ID0EDABA">Hide Field NONCONTRIB ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ECABA')" href="#ID0ECABA"><dt><span class="esriElement">Field</span> NONCONTR_1</dt> 
+		<span id="ID0ECABAShow" class="hide">▼</span><span id="ID0ECABAHide" class="show">►</span></a><div class="show" id="ID0ECABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0ECABA')" href="#ID0ECABA">Hide Field NONCONTR_1 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EBABA')" href="#ID0EBABA"><dt><span class="esriElement">Field</span> SHAPE_Leng</dt> 
+		<span id="ID0EBABAShow" class="hide">▼</span><span id="ID0EBABAHide" class="show">►</span></a><div class="show" id="ID0EBABA"><dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EBABA')" href="#ID0EBABA">Hide Field SHAPE_Leng ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EAABA')" href="#ID0EAABA"><dt><span class="esriElement">Field</span> SHAPE_Area</dt> 
+		<span id="ID0EAABAShow" class="hide">▼</span><span id="ID0EAABAHide" class="show">►</span></a><div class="show" id="ID0EAABA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Area of feature in internal units squared.</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">Esri</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Positive real numbers that are automatically generated.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EAABA')" href="#ID0EAABA">Hide Field SHAPE_Area ▲</a></div></div><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EABA')" href="#ID0EABA">Hide Details for object WBDHU12_FLAALGA ▲</a></div></div><br /><br /><div class="backToTop" style="margin-left: 0;"><a onclick="hideShow('ID0EBA')" href="#ID0EBA">Hide Fields ▲</a></div></div></div></div><h2 class="fgdc head"><a href="#fgdcMetadata" onclick="hideShow('fgdcMetadata')" title="Content created in the 9.3.1 FGDC metadata editor, and managed with the USGS MP Metadata Translator tool. Upgrade to ArcGIS Metadata to manage this content here, in the Description tab.">FGDC Metadata (read-only) <span id="fgdcMetadataShow" class="show">▼</span><span id="fgdcMetadataHide" class="hide">►</span></a></h2><div class="hide" id="fgdcMetadata" xmlns=""><div class="box fgdc"><div><a name="TopFGDC" id="TopFGDC" /></div><div><h2 class="fgdc"><a onclick="hideShow('ID0EEA')" href="#ID0EEA">Identification 
+			<span id="ID0EEAShow" class="hide">▼</span><span id="ID0EEAHide" class="show">►</span></a></h2><div class="show" id="ID0EEA"><dl><dd><dl><dt><span class="element">Citation</span></dt><dd><dl><dt><span class="element">Citation Information</span></dt><dd><dl><dt><span class="element">Title</span></dt><dd><span class="textOld">WBDHU12_FLAALGA</span></dd><dt><span class="element">Geospatial Data Presentation Form</span> <span class="textOld">vector digital data</span></dt></dl></dd><br /></dl></dd><dt><span class="element">Description</span></dt><dd><dl><dt><span class="element">Abstract</span></dt><dl><dd><pre class="wrap"><span class="textOld">All HUCs levels 6-12 that contribute to Florida were selected from the USGS WBD dataset  (downloaded on 3/21/2018).</span></pre></dd></dl></dl></dd><dt><span class="element">Spatial Domain</span></dt><dd><dl><dt><span class="element">Bounding Coordinates</span></dt><dd><dl><dt><span class="element">West Bounding Coordinate</span> <span class="textOld">-88.060776</span></dt><dt><span class="element">East Bounding Coordinate</span> <span class="textOld">-79.974030</span></dt><dt><span class="element">North Bounding Coordinate</span> <span class="textOld">34.827841</span></dt><dt><span class="element">South Bounding Coordinate</span> <span class="textOld">24.395337</span></dt></dl></dd></dl></dd><br /><dt><span class="element">Access Constraints</span></dt><dl><dd><pre class="wrap"><span class="textOld">None</span></pre></dd></dl><dt><span class="element">Use Constraints</span></dt><dl><dd><pre class="wrap"><span class="textOld">None</span></pre></dd></dl><dt><span class="element">Native Data Set Environment</span></dt><dd><span class="textOld"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</span></dd></dl></dd></dl><br /><div class="backToTop"><a onclick="hideShow('ID0EEA')" href="#ID0EEA">Hide Identification  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EDA')" href="#ID0EDA">Spatial Data Organization 
+			<span id="ID0EDAShow" class="hide">▼</span><span id="ID0EDAHide" class="show">►</span></a></h2><div class="show" id="ID0EDA"><dl><dd><dl><dt><span class="element">Direct Spatial Reference Method</span> <span class="textOld">Vector</span></dt><br /><br /><dt><span class="element">Point and Vector Object Information</span></dt><dd><dl><dt><span class="element">SDTS Terms Description</span></dt><dd><dl><dt><span class="element">SDTS Point and Vector Object Type</span> <span class="textOld">GT-polygon composed of chains</span></dt><dt><span class="element">Point and Vector Object Count</span> <span class="textOld">0</span></dt></dl></dd><br /></dl></dd></dl></dd></dl><div class="backToTop"><a onclick="hideShow('ID0EDA')" href="#ID0EDA">Hide Spatial Data Organization  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0ECA')" href="#ID0ECA">Spatial Reference 
+			<span id="ID0ECAShow" class="hide">▼</span><span id="ID0ECAHide" class="show">►</span></a></h2><div class="show" id="ID0ECA"><dl><dd><dl><dt><span class="element">Horizontal Coordinate System Definition</span></dt><dd><dl><dt><span class="element">Planar</span></dt><dd><dl><dt><span class="element">Map Projection</span></dt><dd><dl><dt><span class="element">Map Projection Name</span> <span class="textOld">WGS 1984 Web Mercator Auxiliary Sphere</span></dt><dt><span class="element">Other Projection's Definition</span></dt><dd><span class="textOld">PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</span></dd></dl></dd><br /><dt><span class="element">Planar Coordinate Information</span></dt><dd><dl><dt><span class="element">Planar Coordinate Encoding Method</span> <span class="textOld">coordinate pair</span></dt><dt><span class="element">Coordinate Representation</span></dt><dd><dl><dt><span class="element">Abscissa Resolution</span> <span class="textOld">0.000000006714873101998366</span></dt><dt><span class="element">Ordinate Resolution</span> <span class="textOld">0.000000006714873101998366</span></dt></dl></dd><dt><span class="element">Planar Distance Units</span> <span class="textOld">meter</span></dt></dl></dd><br /></dl></dd><dt><span class="element">Geodetic Model</span></dt><dd><dl><dt><span class="element">Horizontal Datum Name</span> <span class="textOld">D WGS 1984</span></dt><dt><span class="element">Ellipsoid Name</span> <span class="textOld">WGS 1984</span></dt><dt><span class="element">Semi-major Axis</span> <span class="textOld">6378137.0</span></dt><dt><span class="element">Denominator of Flattening Ratio</span> <span class="textOld">298.257223563</span></dt></dl></dd></dl></dd><br /></dl></dd></dl><div class="backToTop"><a onclick="hideShow('ID0ECA')" href="#ID0ECA">Hide Spatial Reference  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Entities and Attributes 
+				<span id="/metadata/eainfo//text()[1]Show" class="hide">▼</span><span id="/metadata/eainfo//text()[1]Hide" class="show">►</span></a></h2><div class="show" id="/metadata/eainfo//text()[1]"><a name="Entity and Attribute Information" id="Entity and Attribute Information" /><dl><dd><dl><dt><span class="element">Detailed Description</span></dt><dd><dl><dt><span class="element">Entity Type</span></dt><dd><dl><dt><span class="element">Entity Type Label</span> <span class="textOld">WBDHU12_FLAALGA</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">FID</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Internal feature number.</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Sequential unique whole numbers that are automatically generated.</span></dd></dl></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">TNMID</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">LOADDATE</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">METASOURCE</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SOURCEDATA</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SOURCEORIG</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SOURCEFEAT</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">GNIS_ID</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">AREAACRES</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">AREASQKM</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">STATES</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">HUC12</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NAME</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">HUTYPE</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">HUMOD</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">TOHUC</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SHAPE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Feature geometry.</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Coordinates defining the features.</span></dd></dl></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NONCONTRIB</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NONCONTR_1</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SHAPE_Leng</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SHAPE_Area</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Area of feature in internal units squared.</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Positive real numbers that are automatically generated.</span></dd></dl></dd></dl></dd><br /></dl></dd></dl></dd></dl><div class="backToTop"><a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Hide Entities and Attributes ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EAA')" href="#ID0EAA">Metadata Reference 
+			<span id="ID0EAAShow" class="hide">▼</span><span id="ID0EAAHide" class="show">►</span></a></h2><div class="show" id="ID0EAA"><dl><dd><dl><dt><span class="element">Metadata Date</span> <span class="textOld">2018-07-02</span></dt><dt><span class="element">Metadata Standard Name</span> <span class="textOld">FGDC Content Standard for Digital Geospatial Metadata</span></dt><dt><span class="element">Metadata Standard Version</span> <span class="textOld">FGDC-STD-001-1998</span></dt><dt><span class="element">Metadata Time Convention</span> <span class="textOld">local time</span></dt><br /><br /></dl></dd></dl><br /><div class="backToTop"><a onclick="hideShow('ID0EAA')" href="#ID0EAA">Hide Metadata Reference  ▲</a></div></div></div></div></div></body></html>

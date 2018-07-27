@@ -1,0 +1,125 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>FDEP_OFS_3_6_2017_wm</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Generalized springs-groundwater basins, aka. springsheds, interpreted from U.S. Geological Survey generalized potentiometric surface maps of the Upper Floridan aquifer, May 1994 and September 1994, and referenced in various SWFWMD publications.</abstract>
+      <purpose>This layer represents a very generalized delineation of the five groundwater basins that are the contributing areas for the major springs groups in the north District and should be used for a regional view (small scale) of the springsheds.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-85.711229</westbc>
+        <eastbc>-81.157273</eastbc>
+        <northbc>31.043712</northbc>
+        <southbc>28.300759</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>springs</themekey>
+        <themekey>springsheds</themekey>
+        <themekey>groundwater basins</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data were not collected under the supervision of a licensed Professional Surveyor and Mapper. Use of these data requires a general understanding of GIS.</useconst>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>27</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FDEP_OFS_3_6_2017_wm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID_1</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>SPRINGSHED</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Index_Num</attrlabl>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180724</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

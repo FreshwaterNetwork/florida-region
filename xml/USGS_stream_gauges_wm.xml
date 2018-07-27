@@ -1,0 +1,286 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>USGS_stream_gauges</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <spdom>
+      <bounding>
+        <westbc>-159.750305</westbc>
+        <eastbc>-65.302467</eastbc>
+        <northbc>48.999947</northbc>
+        <southbc>17.956547</southbc>
+      </bounding>
+    </spdom>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>23426</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>USGS_stream_gauges</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>SUBREGIONS</attrlabl>
+        <attrdef>Hydrologic sub-region (4 digit HUC) of the gage</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID_SITES</attrlabl>
+        <attrdef>Internal Identifer</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NHD2GAGE_D</attrlabl>
+        <attrdef>Distance between the NHD location and the gage house location, in meters</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACCOUNTING</attrlabl>
+        <attrdef>Hydrologic accounting unit (6 digit HUC) of the gage</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FID_sites</attrlabl>
+        <attrdef>Internal identifier</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AGENCY_CD</attrlabl>
+        <attrdef>Gov. Agency responsible for the streamgage</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SITE_NO</attrlabl>
+        <attrdef>USGS Station/Site identification number</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATION_NM</attrlabl>
+        <attrdef>Station name</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATE_CD</attrlabl>
+        <attrdef>2 digit state FIPS code of the WSC maintaining the gage. Puerto Rico is listed as a state.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATE</attrlabl>
+        <attrdef>2 char. state postal abrev. of the WSC maintaining the gage. Puerto Rico is listed as a state.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SITESTATUS</attrlabl>
+        <attrdef>Active (A) or Inactive (I) where active streamgages contain streamflow data in 2003 and/or 2004</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DA_SQ_MILE</attrlabl>
+        <attrdef>Reported drainage area in square miles. Stations with  DA of -999999 means there is no reported DA in NWIS.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LON_SITE</attrlabl>
+        <attrdef>Longitude of the streamgage (site) location - gage house in decimal degrees, NAD83</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LAT_SITE</attrlabl>
+        <attrdef>Latitude of the streamgage (site) location  - gage house in decimal degrees, NAD83</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LON_NHD</attrlabl>
+        <attrdef>Longitude of the NHD location in decimal degrees, NAD83</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>LAT_NHD</attrlabl>
+        <attrdef>Latitude of the NHD location in decimal degrees, NAD83</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>REVIEWED</attrlabl>
+        <attrdef>Flag to indicate review status - Y or N</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BFIYRS</attrlabl>
+        <attrdef>Number of years used in the base-flow index computation</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BFI_AVE</attrlabl>
+        <attrdef>Average annual base-flow index value</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>BFI_STDEV</attrlabl>
+        <attrdef>Standard deviation of annual base-flow index</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GOTBFI</attrlabl>
+        <attrdef>Data flag for BFI</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DAY1</attrlabl>
+        <attrdef>First date of flow data (yyyymmdd)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>DAYN</attrlabl>
+        <attrdef>Last date of flow data (yyyymmdd)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NDAYS</attrlabl>
+        <attrdef>Number of days of flow</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NDAYSGT0</attrlabl>
+        <attrdef>Number of days of non-zero flow</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MIN_</attrlabl>
+        <attrdef>Minimum daily flow for the period of record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P1</attrlabl>
+        <attrdef>1st percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P5</attrlabl>
+        <attrdef>5th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P10</attrlabl>
+        <attrdef>10th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P20</attrlabl>
+        <attrdef>20th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P25</attrlabl>
+        <attrdef>25th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P30</attrlabl>
+        <attrdef>30th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P40</attrlabl>
+        <attrdef>40th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P50</attrlabl>
+        <attrdef>50th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P60</attrlabl>
+        <attrdef>60th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P70</attrlabl>
+        <attrdef>70th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P75</attrlabl>
+        <attrdef>75th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P80</attrlabl>
+        <attrdef>80th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P90</attrlabl>
+        <attrdef>90th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P95</attrlabl>
+        <attrdef>95th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>P99</attrlabl>
+        <attrdef>99th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>MAX_</attrlabl>
+        <attrdef>Maximum daily flow for the period of record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>AVE</attrlabl>
+        <attrdef>Average daily flow for the period of record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STDEV</attrlabl>
+        <attrdef>Standard deviation of flow for daily the period of record</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>GOTQ</attrlabl>
+        <attrdef>Flag indicating flow data (1) or no flow data (0)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NWISWEB</attrlabl>
+        <attrdef>URL to the station's NWISWeb home page.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HUC</attrlabl>
+        <attrdef>Hydrologic Cataloging Unit (8 digit HUC) of the gage</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>HUC_REG</attrlabl>
+        <attrdef>Hydrologic Region (2 digit HUC) of the gage</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.626</transize>
+        </digtinfo>
+        <digtopt />
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20180724</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

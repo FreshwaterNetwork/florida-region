@@ -1,0 +1,146 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Polygons representing thickness of the upper confining unit of the Floridan aquifer system</title>
+        <geoform>vector digital data</geoform>
+        <lworkcit>
+          <citeinfo>
+            <pubdate>20150304</pubdate>
+            <title>Revised Hydrogeologic Framework of the Floridan aquifer system in Florida and Parts of Georgia, Alabama, and South Carolina, U.S. Geological Survey Professional Paper 1807.</title>
+            <serinfo>
+              <sername>U.S. Geological Survey Professional Paper</sername>
+              <issue>1807</issue>
+            </serinfo>
+            <onlink>http://pubs.usgs.gov/pp/1807/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This feature class contains polygon regions that represent thickness of the upper confining unit of the Floridan aquifer system.</abstract>
+      <purpose>Shows thickness of the upper confining unit and extent of the intermediate aquifer system.
+Data available from: http://pubs.usgs.gov/ds/0926 or http://dx.doi.org/10.3133/ds926
+</purpose>
+    </descript>
+    <status>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.473157</westbc>
+        <eastbc>-79.713850</eastbc>
+        <northbc>33.845343</northbc>
+        <southbc>24.454783</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Florida, Georgia, Alabama, South Carolina, Hydrogeology, Stratigraphy, Floridan aquifer system, Geology, Regional Groundwater Availability Study, USGS, United States Geological Survey, thickness, extent, regions, upper confining unit, Intermediate aquifer system, Intermediate confining unit, IAS, ICU</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <datacred>Williams and Kuniansky, 2015, Revised Hydrogeologic Framework of the Floridan aquifer system in Florida and Parts of Georgia, Alabama, and South Carolina, U.S. Geological Survey Professional Paper 1807. Report available from: http://pubs.usgs.gov/pp/1807/ or http://dx.doi.org/10.3133/pp1807
+</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1152</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>USGS_fig21_thickness_UCU_units_wm</enttypl>
+        <enttypd>Polygons representing thickness of the upper confining unit of the Floridan aquifer system</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>grid_code</attrlabl>
+        <attrdef>1 =  Unconfined
+2 = Thinly confined
+3 = Confined</attrdef>
+        <attrdefs>USGS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Type</attrlabl>
+        <attrdef>Confining units:  Unconfined, Thinly confined, confined.</attrdef>
+        <attrdefs>USGS</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180727</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,436 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Gregory DeAngelo, FDEP Division of Environmental Assessment &amp; Restoration (DEAR), Deputy Director</origin>
+        <pubdate>20160921</pubdate>
+        <title>Springs Priority Focus Areas</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://publicfiles.dep.state.fl.us/OTIS/GIS/data/SPRINGS_PRIORITY_FOCUS_AREAS.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>As per the Florida Springs and Aquifer Protection Act (part VIII of chapter 373, Florida Statutes), the department delineates priority focus areas for each Outstanding Florida Spring that is impaired by excessive nutrient pollution. Using the best data available, the department delineates the priority focus areas considering groundwater travel time to the spring, hydrogeology, nutrient loads in the springshed, and other factors. The priority focus areas are adjusted to rely upon understood and easily identifiable boundaries such as roads or political jurisdictions. The priority focus areas become effective upon incorporation into a basin management action plan (BMAP).</abstract>
+      <purpose>To spatially represent the area where a spring is likely to be most adversely impacted by activities. The purpose of this layer to show the land area with greatest potential to impact a specific spring.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180622</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Date data was updated in the GIS library</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-85.204357</westbc>
+        <eastbc>-81.217029</eastbc>
+        <northbc>31.000785</northbc>
+        <southbc>28.321429</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>BMAP</themekey>
+        <themekey>Adoption Pending</themekey>
+        <themekey>Priority Focus Areas</themekey>
+        <themekey>Florida</themekey>
+        <themekey>environment</themekey>
+        <themekey>Protection Zone</themekey>
+        <themekey>Best Management</themekey>
+        <themekey>Water Resources (Inland)</themekey>
+        <themekey>Springs</themekey>
+        <themekey>Basin Management Action Plan</themekey>
+        <themekey>Stakeholders and TMDL</themekey>
+        <themekey>Environmental Monitoring and Modeling</themekey>
+        <themekey>Adopted</themekey>
+        <themekey>DEAR</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use is limited to showing approximate feature delineations. This layer is not intended for legal decision making</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>FDEP Division of Environmental Assessment &amp; Restoration (DEAR)</cntorg>
+          <cntper>Gregory DeAngelo</cntper>
+        </cntorgp>
+        <cntpos>Deputy Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>2600 Blair Stone Road, Mail Station 3000</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+        </cntaddr>
+        <cntvoice>850-245-7609</cntvoice>
+        <cntemail>Gregory.DeAngelo@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>FDEP</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Individual shapefiles used by the BMAP section were combined to create this data layer. Data was projected to FDEP FL Albers projection. It has been passed on the BMAP Administrators to review and provide input.</procdesc>
+      </procstep>
+      <procstep>
+        <procdesc>Wekiva boundary removed and data layer resubmitted as Springs Priority Focus Areas.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Added as a new layer in the GIS library. Removed BMAP Springs Protection Zones from the GIS library. This new layer is a replacement for the BMAP Springs Protection Zones in the GIS library, MapDirect and the FDEP Open Data site.</procdesc>
+        <procdate>20160921</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Madison Blue, Kings Bay, Fanning-Manatee, Troy-Peacock-LafayetteBlue-Falmouth, and Volusia Blue Priority Focus Areas have been added as Primary Protection Zones.</procdesc>
+        <procdate>20171208</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20171211</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Revised data obtained from DEAR and updated the same in the GIS library</procdesc>
+        <procdate>20171213</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Madison Blue, Kings Bay, Fanning-Manatee, Troy-Peacock-LafayetteBlue-Falmouth, and Volusia Blue Priority Focus Areas have been removed as Primary Protection Zones as per request from Gregory DeAngelo.</procdesc>
+        <procdate>20171213</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>Ronald.Hughes@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>This layer has been renamed Pending Springs Priority Focus Areas.
+
+Madison Blue, Kings Bay, Fanning-Manatee, Troy-Peacock-LafayetteBlue-Falmouth, Volusia Blue, Chassahowitzka-Homosassa, Weeki Wachee, Wacissa, Wekiwa-Rock, DeLeon, Devil's Ear, Gemini, Columbia Hornsby Treehouse, Ichetucknee, and Jackson Blue Priority Focus Areas have been added as Primary Protection Zones. 
+
+Rainbow Springs was renamed to "Rainbow" and Silver Springs was renamed "Silver" to be consistent with naming conventions.
+
+These changes are at the request of Gregory DeAngelo. 
+</procdesc>
+        <procdate>20180220</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>For GIS related inquiries please contact Ronald Hughes.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the DEP GIS library. The display name for this layer changed to 'Pending Springs Priority Focus Areas' in the GIS library.</procdesc>
+        <procdate>20180221</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>This display name for this layer layer has been changed back to Springs Priority Focus Areas after temporarily being named Pending Springs Priority Focus Areas.
+
+A new attribute field called STATUS has been added.  This was done in response to requests of the stakeholders to display PFAs with different statuses on the same map (i.e., more than just the "pending" PFAs).
+
+These changes were approved by Greg DeAngelo, Deputy Director of DEAR.
+
+</procdesc>
+        <procdate>20180621</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>For GIS related inquiries please contact Ronald Hughes.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the DEP GIS library. The display name for this layer changed to 'Springs Priority Focus Areas' in the GIS library.</procdesc>
+        <procdate>20180622</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>19</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FDEP_SPRINGS_PRIORITY_FOCUS_AREAS_wm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAME</attrlabl>
+        <attrdef>The name of the Spring Protection Zone.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PROTECTION</attrlabl>
+        <attrdef>The type of Spring Protection Zone (Primary, Secondary, etc.)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Area calculated in acres.  Calculated using the shapefile geometry.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Current stage within the BMAP developmental process.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>BMAP Adopted</edomv>
+            <edomvd>The BMAP has been adopted by the Secretary and stakeholder implementation is underway.</edomvd>
+            <edomvds>BMAP Section</edomvds>
+          </edom>
+          <edom>
+            <edomv>Pending BMAPs</edomv>
+            <edomvd>A process to prepare a BMAP is underway; the BMAP is not yet adopted.</edomvd>
+            <edomvds>BMAP Section</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180724</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd MS 6520</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

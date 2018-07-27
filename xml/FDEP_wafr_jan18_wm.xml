@@ -1,0 +1,751 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Florida Department of Environmental Protection, Wastewater Facilities Regulation Section</origin>
+        <pubdate>19990630</pubdate>
+        <title>WASTEWATER FACILITIES - JANUARY 2018</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Tallahassee, FL</pubplace>
+          <publish>Florida Department of Environmental Protection</publish>
+        </pubinfo>
+        <othercit>State of Florida</othercit>
+        <onlink>http://geodata.dep.state.fl.us/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Statewide coverage of Wastewater Facility Regulation (WAFR) Facilities. This dataset includes facilities whose current operating status is Active, Closed but Monitored, or Under Construction. Also included are un-permitted facilities for which a permit is required. These facilities are regulated by the following Florida Department of Environmental Protection programs - "Industrial Wastewater Program", "Domestic Wastewater Program", "Phosphate Management Wastewater Program", "Power Plant Management Wastewater Program." </abstract>
+      <purpose>The data was created to serve as base information for use in GIS systems for a variety of planning and analytical purposes.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19920101</begdate>
+          <enddate>20180109</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.477420</westbc>
+        <eastbc>-79.918890</eastbc>
+        <northbc>30.996230</northbc>
+        <southbc>24.567338</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Environmental Monitoring &amp; Modeling</themekey>
+        <themekey>Wastewater Facilities</themekey>
+        <themekey>WAFR</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Florida</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This data is intended to be used for general informational and planning purposes, and is not appropriate for legal and/or cadastral purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection, Division of Water Resource Management, Data and Information Services Program</cntorg>
+          <cntper>Bruce Nickerson</cntper>
+        </cntorgp>
+        <cntpos>Originator</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd, MS 3540</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>850-245-8481</cntvoice>
+        <cntemail>Bruce.Nickerson@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+    <crossref>
+      <citeinfo>
+        <othercit>Wastewater Program: http://www.dep.state.fl.us/water/wastewater/index.htm Wastewater Facility Information: http://www.dep.state.fl.us/water/wastewater/facinfo.htm</othercit>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>GeoPlan relied on the integrity of the attribute information within the original data.</attraccr>
+    </attracc>
+    <logic>This data is provided 'as is'. GeoPlan relied on the integrity of the original data layer's topology</logic>
+    <complete>This data is provided 'as is' by GeoPlan and is complete to our knowledge.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Accuracy Statement: The Accuracy Level Goal for all Wastewater Facility locations represented by points is between 1 and 10 meters, or Accuracy Level 3 as defined by the FDEP Locational Data Standard, Version 3.0 .</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>This data is provided 'as is' and its vertical positional accuracy has not been verified by GeoPlan</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>Wastewater Facility Regulation Database</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>0</srcscale>
+        <typesrc>onLine</typesrc>
+        <srccitea>FDEP</srccitea>
+        <srccontr>Spatial and Attribute Information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Pull scripts modified to reflect table, view and column name changes due to migration of databases to agency web-compliant naming standards.</procdesc>
+        <srcused>FDEP</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset initially created as an SDE daily refresh layer from WAFR database system.</procdesc>
+        <srcused>FDEP</srcused>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection</cntorg>
+              <cntper>Rene' Arbogast</cntper>
+            </cntorgp>
+            <cntvoice>850/245-8522</cntvoice>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>This data is a result of the WAFR database integrated in the Integrated Management System.</procdesc>
+        <srcused>FDEP</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>Underlying database was changed to take advantage of Locational Data Standard (LDS) which changed the column type and codes for DATUM. Pull scripts were changed so that NULL DATUM values are now assumed NAD83 instead of NAD27.</procdesc>
+        <srcused>FDEP</srcused>
+      </procstep>
+      <procstep>
+        <procdesc>New update method instituted for WAFR involving the import of a shapefile exported from wafr_sp_vw, a spatial view of the WAFR spatial table wafr_sp.</procdesc>
+        <srcused>FDEP</srcused>
+        <procdate>20050820</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Added 'DESIGN_CAPACITY' field to the layer.</procdesc>
+        <srcused>FDEP</srcused>
+        <procdate>20150611</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updated schema - added field 'PRETREAT_REQ' based on a updated SQL script provided by Theresa Bouie. Metadata updated.</procdesc>
+        <srcused>FDEP</srcused>
+        <procdate>20160330</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updated schema - added fields 'DATE_COMPLETE' , 'DATE_INITIATED, 'AC5_ACTIVITY_CODE_ID' based on a updated SQL script provided by Theresa Bouie. Metadata updated.</procdesc>
+        <srcused>FDEP</srcused>
+        <procdate>20160503</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Removed fields - 'DATE_COMPLETE' , 'DATE_INITIATED, 'AC5_ACTIVITY_CODE_ID' and updated SQL query to reflect the last modification done on March 30th 2016. Metadata updated</procdesc>
+        <srcused>FDEP</srcused>
+        <procdate>20160519</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>This dataset was downloaded by the GeoPlan Center on 1/9/2018 from the FDEP website (http://geodata.dep.state.fl.us/). The data was received as a geodatabase and was in the following projection: NAD_1983_HARN_Florida_GDL_Albers. This dataset is updated daily. Contact the FDEP for the most recent data. The dataset has a number of points located in the Gulf of Mexico. As these points are reviewed they should be corrected by FDEP over time. - Added the field DESCRIPT based on FACILITY_N. - Added the field FGDLAQDATE based on date downloaded from source. - Upcased all text in the attribute table. - Data set was renamed wafr_jan18 from WAFR_IMS_SP</procdesc>
+        <srcused>GeoPlan</srcused>
+        <procdate>20180116</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>3042</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FDEP_wafr_jan18_wm</enttypl>
+        <enttypd>WAFR_JAN18.DBF</enttypd>
+        <enttypds>FDEP</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LOCATIONAL</attrlabl>
+        <attrdef>Locational ID</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>WAFR_FACIL</attrlabl>
+        <attrdef>Unique sequence identifier (key) for the facility record</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_I</attrlabl>
+        <attrdef>Unique Facility ID</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_N</attrlabl>
+        <attrdef>Facility name</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ENVIRONMEN</attrlabl>
+        <attrdef>Waste water program associated with feature</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MANAGED_EN</attrlabl>
+        <attrdef>(WWF) Wastewater Facility, (WWRAS) Wastewater Residuals Application Site</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_T</attrlabl>
+        <attrdef>Facilitiy type</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AFO</edomv>
+            <edomvd>Animal Feeding Operation</edomvd>
+          </edom>
+          <edom>
+            <edomv>AGR</edomv>
+            <edomvd>Agricultural</edomvd>
+          </edom>
+          <edom>
+            <edomv>CBP</edomv>
+            <edomvd>Concrete Batch GP</edomvd>
+          </edom>
+          <edom>
+            <edomv>CFO</edomv>
+            <edomvd>Concentrated Animal Feeding Operation</edomvd>
+          </edom>
+          <edom>
+            <edomv>CON</edomv>
+            <edomvd>Conservation Area</edomvd>
+          </edom>
+          <edom>
+            <edomv>DEW</edomv>
+            <edomvd>Dewatering GP</edomvd>
+          </edom>
+          <edom>
+            <edomv>DW</edomv>
+            <edomvd>Domestic Wastewater Treatment Plant</edomvd>
+          </edom>
+          <edom>
+            <edomv>IU</edomv>
+            <edomvd>Industrial User</edomvd>
+          </edom>
+          <edom>
+            <edomv>IW</edomv>
+            <edomvd>Industrial Wastewater</edomvd>
+          </edom>
+          <edom>
+            <edomv>MCP</edomv>
+            <edomvd>MS4 Co-permittee</edomvd>
+          </edom>
+          <edom>
+            <edomv>NEX</edomv>
+            <edomvd>Stormwater No Exposure Certification</edomvd>
+          </edom>
+          <edom>
+            <edomv>OTH</edomv>
+            <edomvd>Other</edomvd>
+          </edom>
+          <edom>
+            <edomv>PED</edomv>
+            <edomvd>Petroleum Cleanup GP (8 hr)</edomvd>
+          </edom>
+          <edom>
+            <edomv>PES</edomv>
+            <edomvd>Petroleum Cleanup GP (&lt;=30-day duration)</edomvd>
+          </edom>
+          <edom>
+            <edomv>PET</edomv>
+            <edomvd>Petroleum Cleanup GP (long term)</edomvd>
+          </edom>
+          <edom>
+            <edomv>RAF</edomv>
+            <edomvd>Residuals Application Facility</edomvd>
+          </edom>
+          <edom>
+            <edomv>RES</edomv>
+            <edomvd>Residuals/Septage Management Facility</edomvd>
+          </edom>
+          <edom>
+            <edomv>REU</edomv>
+            <edomvd>Reuse/Distribution System</edomvd>
+          </edom>
+          <edom>
+            <edomv>UIC</edomv>
+            <edomvd>Underground Injection Control Facility</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FACILITY_S</attrlabl>
+        <attrdef>Status</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A</edomv>
+            <edomvd>Active</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>Closed But Monitored</edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>Active Permit not Required</edomvd>
+          </edom>
+          <edom>
+            <edomv>P</edomv>
+            <edomvd>Plugged and Abandoned (UIC)</edomvd>
+          </edom>
+          <edom>
+            <edomv>T</edomv>
+            <edomvd>Undefined by Source</edomvd>
+          </edom>
+          <edom>
+            <edomv>X</edomv>
+            <edomvd>Active Unpermitted Discharge</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NPDES</attrlabl>
+        <attrdef>Field denotes whether the facility is part of the National Pollution Discharge Elimination System or a state or local facility</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>National Pollution Discharge Elimination System </edomvd>
+          </edom>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>State or Local Facility</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESIGN_CAP</attrlabl>
+        <attrdef>Designed capacity of facility in MGD</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PERMITTED_</attrlabl>
+        <attrdef>The currently permitted capacity of the facility in million gallons per day (MGD).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PRETREAT_R</attrlabl>
+        <attrdef>Indicates whether a facility is required to have an Industrial Pretreatment Program as defined by 62-625, F.A.C.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>N</edomv>
+            <edomvd>An industrial pretreatment program is not required for this facility.</edomvd>
+          </edom>
+          <edom>
+            <edomv>Y</edomv>
+            <edomvd>This facility has an approved industrial pretreatment program and is acting as the control authority.</edomvd>
+          </edom>
+          <edom>
+            <edomv>C</edomv>
+            <edomvd>The facility is required to have a pretreatment program, but there is another facility acting as the control authority, and this facility is covered under that pretreatment program.</edomvd>
+          </edom>
+          <edom>
+            <edomv>I</edomv>
+            <edomvd>The pretreatment program is inactive.</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>OFFICE_NAM</attrlabl>
+        <attrdef>The FDEP District or county office responsible for the facility</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT_N</attrlabl>
+        <attrdef>Code for the FDEP District or county office responsible for the facility</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>CD</edomv>
+            <edomvd>Central District</edomvd>
+          </edom>
+          <edom>
+            <edomv>NED</edomv>
+            <edomvd>Northeast District</edomvd>
+          </edom>
+          <edom>
+            <edomv>NWD</edomv>
+            <edomvd>Northwest District</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWDP</edomv>
+            <edomvd>Northwest District Branch (Panama City)</edomvd>
+          </edom>
+          <edom>
+            <edomv>SD</edomv>
+            <edomvd>South District</edomvd>
+          </edom>
+          <edom>
+            <edomv>SDB</edomv>
+            <edomvd>South District Branch</edomvd>
+          </edom>
+          <edom>
+            <edomv>SED</edomv>
+            <edomvd>Southeast District</edomvd>
+          </edom>
+          <edom>
+            <edomv>SEDB</edomv>
+            <edomvd>Southeast District Branch</edomvd>
+          </edom>
+          <edom>
+            <edomv>SEPB</edomv>
+            <edomvd>Palm Beach County</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWD</edomv>
+            <edomvd>Southwest District</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWDS</edomv>
+            <edomvd>Desoto County</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWHI</edomv>
+            <edomvd>Hillsborough County</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWPM</edomv>
+            <edomvd>Undefined by Source</edomvd>
+          </edom>
+          <edom>
+            <edomv>SWSA</edomv>
+            <edomvd>Sarasota County</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY</attrlabl>
+        <attrdef>Numeric code identifying the county which the facility operates in. For a complete list of the numeric codes, see the fields PK_COUNTY and NAME in the lookup table bis_lib.mt_county on FDEP</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>None</edomvd>
+          </edom>
+          <edom>
+            <edomv>1-67</edomv>
+            <edomvd>County names in alphabet order</edomvd>
+          </edom>
+          <edom>
+            <edomv>99</edomv>
+            <edomvd>All</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNTY_NAM</attrlabl>
+        <attrdef>County name</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QA_STATUS</attrlabl>
+        <attrdef>Quality control status</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LAT_DD</attrlabl>
+        <attrdef>Latitude degrees</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LAT_MM</attrlabl>
+        <attrdef>Latitude minutes</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LAT_SS</attrlabl>
+        <attrdef>Latitude seconds</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONG_DD</attrlabl>
+        <attrdef>Longitude degrees</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONG_MM</attrlabl>
+        <attrdef>Longitude minutes</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LONG_SS</attrlabl>
+        <attrdef>Longitude seconds</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DCD_DATUM_</attrlabl>
+        <attrdef>Datum</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>HARN</edomv>
+            <edomvd>HIGH ACCURACY REFERENCE NETWORK   Spheroid: GRS80          Old: 80</edomvd>
+          </edom>
+          <edom>
+            <edomv>HPGN</edomv>
+            <edomvd>HIGH PRECISION GPS NETWORK    Spheroid: GRS80          Old: 90</edomvd>
+          </edom>
+          <edom>
+            <edomv>NAD83</edomv>
+            <edomvd>NORTH AMERICAN DATUM OF 1983     Spheroid: GRS80          Old: 83</edomvd>
+          </edom>
+          <edom>
+            <edomv>WGS84</edomv>
+            <edomvd>WORLD GEODETIC SURVEY OF 1984     Spheroid: WGS84          Old: 84</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DETERMINAT</attrlabl>
+        <attrdef>The date the location data was collected.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CMCD_COORD</attrlabl>
+        <attrdef>Method by which feature was collected</attrdef>
+        <attrdefs>FDEP</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ADDM</edomv>
+            <edomvd>Address Matching</edomvd>
+          </edom>
+          <edom>
+            <edomv>AGPS</edomv>
+            <edomvd>Autonomous GPS</edomvd>
+          </edom>
+          <edom>
+            <edomv>DGPS</edomv>
+            <edomvd>Differentially Corrected GPS</edomvd>
+          </edom>
+          <edom>
+            <edomv>DMAP</edomv>
+            <edomvd>Digital Map Interpolation</edomvd>
+          </edom>
+          <edom>
+            <edomv>DPHO</edomv>
+            <edomvd>Digital Aerial Photography</edomvd>
+          </edom>
+          <edom>
+            <edomv>GGPS</edomv>
+            <edomvd>Geodetic Quality Global Positioning System (GPS)</edomvd>
+          </edom>
+          <edom>
+            <edomv>LORN</edomv>
+            <edomvd>LORAN-C Navigational Device</edomvd>
+          </edom>
+          <edom>
+            <edomv>MMAP</edomv>
+            <edomvd>Manual Map Interpolation</edomvd>
+          </edom>
+          <edom>
+            <edomv>MPHO</edomv>
+            <edomvd>Manual Aerial Photography</edomvd>
+          </edom>
+          <edom>
+            <edomv>SATI</edomv>
+            <edomvd>Satellite Imagery</edomvd>
+          </edom>
+          <edom>
+            <edomv>UNVR</edomv>
+            <edomvd>Unverified</edomvd>
+          </edom>
+          <edom>
+            <edomv>ZIPC</edomv>
+            <edomvd>Zip Code Centroid</edomvd>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COLLECTOR_</attrlabl>
+        <attrdef>Username of the collector.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>CAC1_COORD</attrlabl>
+        <attrdef>Coordinate Accuracy Level code value.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>OOIC_OBJEC</attrlabl>
+        <attrdef>Key referencing an object of interest.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VERIFICATI</attrlabl>
+        <attrdef>The date and time when verification of the location information was performed.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VERIFY_CMC</attrlabl>
+        <attrdef>The name of the person verifying the location information.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>VERIFIER_U</attrlabl>
+        <attrdef>The name of the person verifying the location information.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PPC_POINT_</attrlabl>
+        <attrdef>Key referencing a Proximity Code value.</attrdef>
+        <attrdefs>FDEP</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOCUMENTS</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPT</attrlabl>
+        <attrdef>FGDL added field based on FACILITY_N</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FGDLAQDATE</attrlabl>
+        <attrdef>FGDL added field based on date received from source</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>AUTOID</attrlabl>
+        <attrdef>Unique ID added by GeoPlan</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>ATTRIBUTE DESCRIPTION :
+
+PK$WAFR_FACILITY     Unique sequence identifier (key) for the facility record
+	
+DESIGN_CAPACITY	Designed capacity of facility in MGD
+
+FEATURE         Description of the point used to represent the Facility.
+                Various values which include:
+                Front Gate
+                Center of Plant
+                Other
+                Treatment Plant Headworks	
+	
+GIS_QA_METHOD   NOT REVIEWED
+                VISUAL QA WITH DOQ
+
+USERNAME	Identifier of the last user to update this record
+
+TIME_STAMP	Date the record was last updated
+
+SHAPE	Column used by ArcSDE which does not show up as a field in ArcView</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Geographic Data Library (FGDL)</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>431 Architecture PO Box 115706</address>
+          <city>Gainesville</city>
+          <state>Florida</state>
+          <postal>32611-5706</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>Mailing list for FGDL: http://www.fgdl.org/fgdl-l.html</cntemail>
+        <cntemail>For FGDL Software: http://www.fgdl.org/software.html</cntemail>
+        <cntemail>Technical Support: http://www.fgdl.org/fgdlfeed.html</cntemail>
+        <cntemail>FGDL Frequently Asked Questions: http://www.fgdl.org/fgdlfaq.html</cntemail>
+        <cntemail>Web site: http://www.fgdl.org</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>DOWNLOADABLE DATA</resdesc>
+    <distliab>The Florida Geographic Data Library is a collection of Geospatial Data compiled by the University of Florida GeoPlan Center with support from the Florida Department of Transportation. GIS data available in FGDL is collected from various state, federal, and other agencies (data sources) who are data stewards, producers, or publishers. The data available in FGDL may not be the most current version of the data offered by the data source. University of Florida GeoPlan Center makes no guarantees about the currentness of the data and suggests that data users check with the data source to see if more recent versions of the data exist. Furthermore, the GIS data available in the FGDL are provided 'as is'. The University of Florida GeoPlan Center makes no warranties, guaranties or representations as to the truth, accuracy or completeness of the data provided by the data sources. The University of Florida GeoPlan Center makes no representations or warranties about the quality or suitability of the materials, either expressly or implied, including but not limited to any implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The University of Florida GeoPlan Center shall not be liable for any damages suffered as a result of using, modifying, contributing or distributing the materials. A note about data scale: Scale is an important factor in data usage. Certain scale datasets are not suitable for some project, analysis, or modeling purposes. Please be sure you are using the best available data. 1:24000 scale datasets are recommended for projects that are at the county level. 1:24000 data should NOT be used for high accuracy base mapping such as property parcel boundaries. 1:100000 scale datasets are recommended for projects that are at the multi-county or regional level. 1:125000 scale datasets are recommended for projects that are at the regional or state level or larger. Vector datasets with no defined scale or accuracy should be considered suspect. Make sure you are familiar with your data before using it for projects or analysis. Every effort has been made to supply the user with data documentation. For additional information, see the References section and the Data Source Contact section of this documentation. For more information regarding scale and accuracy, see our webpage at: http://geoplan.ufl.edu/education.html</distliab>
+  </distinfo>
+  <metainfo>
+    <metd>20180724</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection (FDEP) BIS/GIS Section</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd, MS 6520</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

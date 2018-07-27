@@ -1,0 +1,534 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Debra Harrington, Florida Department of Environmental Protection, DEAR - Groundwater Management Section, Environmental Consultant</origin>
+        <pubdate>20170123</pubdate>
+        <title>Florida Springs (2016)</title>
+        <geoform>vector digital data</geoform>
+        <othercit>Harrington, D. Springs of Florida 2016 Master List. 2016. Tallahassee, Florida. Florida Department of Environmental Protection. Florida Department of Environmental Protection: &lt;http://www.dep.state.fl.us/springs/reports/index.htm&gt; Florida Department of Environmental Protection's Springs Information: https://dep.state.fl.us/springs</othercit>
+        <onlink>http://publicfiles.dep.state.fl.us/OTIS/GIS/data/SPRINGS_2016.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains the best available locations of springs that have had some data collection or field activities or were included in publications by various agencies. Currently this collection has 1093 unique spring vents, karst windows and associated sinkholes that are recognized in Florida and are represented in this dataset. This layer FLORIDA SPRINGS (2016) is intended to supersede the SPRINGS (2015) layer.</abstract>
+      <purpose>This layer is intended to be used for statewide mapping purposes and as a reference to the names and locations of spring-related sites where data collection or field visits have taken place. This dataset also updates and revises some information that was in previous springs layers. The purpose of this layer is to combine available information on springs and spring-related waters (vents, karst windows and sinkholes) from many agencies so that it provides the best available location for each spring-related water feature. Users can review the RESOURCE field to get additional information about the station type (e.g. spring vent, spring boil, spring run).</purpose>
+      <supplinf>The primary sources for this dataset were Florida Department of Environmental Protection's Springs Combined Database (GGWIS), springs station inventories maintained by Florida's Water Management Districts, data downloads from GWIS, STORET, USGS, and the Florida Geological Survey's Bulletin 31 and 66 Springs of Florida publications. DEP has revised the magnitude classification system to report the recent magnitude for individual vents (if available), historic magnitude and combined discharge from DEP spring groups listed in FGS Springs of Florida Bulletin 66. DEP revised classification system (Harrington et al., 2010) also makes it possible to differentiate between those springs that may stop flowing on an intermittent or those not flowing on a permanent basis. The DEP SPRING MAGNITUDE DEFINITIONS shown below differentiate between those springs that flow intermittently, depending on aquifer levels and recharge (Magnitude = Stop Flowing), and those springs that have ceased flowing for an extended period of time (Magnitude = Never Flowing). DEP SPRING MAGNITUDE DEFINITIONS* 1st Magnitude - &gt; 100 cubic feet per second (cfs) 2nd Magnitude - &gt;10 - 100 cfs 3rd Magnitude - &gt;1 - 10 cfs 4th Magnitude - &gt;100 gal/min (gallons per minute) - 448 gal/min (1 cfs) 5th Magnitude - &gt;10 to 100 gal/min 6th Magnitude - &gt;1 to 10 gal/min 7th Magnitude - &gt;1 pint to 1 gal/min 8th Magnitude - Equal to or less than 1 pint/min Not Flowing Magnitude - No longer flowing or has intermittent flow but may recover Never Flowing Magnitude - No longer flowing at any time on a permanent basis. Unknown - No record of spring discharge available. *DEP Magnitude categories based on Harrington et al., 2010; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20170123</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Date data published in the GIS library</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.313703</westbc>
+        <eastbc>-80.747777</eastbc>
+        <northbc>30.988237</northbc>
+        <southbc>25.833558</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Springs Master List</themekey>
+        <themekey>Florida</themekey>
+        <themekey>River Rise</themekey>
+        <themekey>Water Quality</themekey>
+        <themekey>geological</themekey>
+        <themekey>Springs</themekey>
+        <themekey>Spring Rise</themekey>
+        <themekey>Environmental Monitoring and Modeling</themekey>
+        <themekey>hydrological</themekey>
+        <themekey>Spring Protection</themekey>
+        <themekey>Environment</themekey>
+        <themekey>Spring Vent</themekey>
+        <themekey>Spring Run</themekey>
+        <themekey>Karst</themekey>
+        <themekey>Water Resources (Inland)</themekey>
+        <themekey>Water</themekey>
+        <themekey>geoscientific.</themekey>
+        <themekey>Groundwater Management</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Florida</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Make sure you are familiar with this data before using it for projects or analysis. Every effort has been made to supply the user with data documentation. For additional information, see the Data Source Contact section of this documentation. This data is based on interpretation of available information and should not be construed as legally binding. For additional information, see the References section and the Data Source Contact section of this documentation.DEP GIS data is provided as a public service. DEP makes every effort to provide accurate and complete data. Metadata is provided for all datasets and no data should be used without first reading and understanding the limitations of the data. The Florida Department of Environmental Protection (DEP) provides NO WARRANTY as to the accuracy of this data or any corresponding attributes or metadata. Data is provided in an as is condition, without warranty of any kind, either expressed or implied, including any assurance that the data is fit for a particular purpose. DEP shall have no liability, in any case, to the use of provided data (including redistribution and reproduction). Full liability, responsibility and consequence relating to the use of provided data rests with the user.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection, DEAR - Groundwater Management Section</cntorg>
+          <cntper>Debra Harrington</cntper>
+        </cntorgp>
+        <cntpos>Environmental Consultant</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Road, MS 3555</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>850-245-8232</cntvoice>
+        <cntemail>Debra.Harrington@dep.state.fl.us</cntemail>
+        <hours>9:00am - 6:00pm</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Appreciation goes to Debra Harrington and Jing Wang of the DEP Ground Water Management Section (GWMS) for compiling and maintaining this Springs Masterlist since 2013, and GIS staff of the Office of Watershed Services for compiling and maintaining the dataset and producing the coverage updates. Appreciation also goes to technical resources at Florida’s water management districts, the Florida Geological Survey, the U. S. Geological Survey and local governments for providing and revising data.</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <dataqual>
+    <logic>The integrity of the data is as supplied by multiple data providers. An official DEP Spring Name (SPRING_NAME) and numeric identification number (SPRING_KEY) was permanently assigned to assist in providing a generic naming convention to all Florida springs. Where there was more than one spring in the state with a similar name the county was also included in the spring name. There may be times where the station name (STATION_NA) is a local name that can be confusing or does not adhere to the official DEP naming convention.</logic>
+    <complete>This dataset contains the best available location for each spring (vents, karst windows and sinkholes) that has had some data collection or field activities in the State of Florida. Currently 1,093 unique spring-related waters are represented in this dataset.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The best available location for each spring was selected based on the following general hierarchy - FGS Bulletin 66, DEP GWIS Ambient Database, WMDs, USGS and then STORET. In some cases the names and/or locations published in FGS Bulletin 66 are revised. All of the springs were projected to the Florida Albers coordinate system used by DEP from the "native" latitude/longitude. The values were also converted to decimal degrees and degrees-minute-seconds if not provided with the original data.</horizpar>
+      </horizpa>
+      <vertacc>
+        <qvertpa>
+          <vertacce>This data is provided 'as is' and its vertical positional accuracy has not been verified by GeoPlan</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Spreadsheet named SPRINGS_2016 was submitted from DEAR Ground Water Management Section to DEAR GIS subsection. Data was processed, converted to a shapefile and submitted to OTIS to be published in DataMiner and MapDirect. This layer will replace the Florida Springs 2015 SDE layer in the DataMiner GIS Library and MapDirect.</procdesc>
+        <procdate>20161227</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data for a new 2016 version of the Springs layer obtained from DEAR and added the same in the GIS library. This 2016 version replaces the 2015 version in the library, MapDirect Lite and the Open Data site.</procdesc>
+        <procdate>20170123</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>MS 6520</address>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>Florida</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>1093</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FDEP_SPRINGS_2016_wm</enttypl>
+        <enttypd>FLORIDA_SPRINGS_2016.DBF</enttypd>
+        <enttypds>DEP</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BEST_LOCATION</attrlabl>
+        <attrdef>DEP GENERATED SELECTION SO THAT THERE IS ONLY ONE STATION WITH THE BEST AVAILABLE LOCATION TO REPRESENT EACH SPRING. THIS HAS A “YES” WHERE THERE HAS BEEN CONFIRMATION OF THE STATION AND “CONDITIONAL” WHERE ADDITIONAL FIELD VISITS WOULD BE HELPFUL. DATA PROVIDERS HAVE SENT THEIR ENTIRE SPRINGS DATABASE AND THE PRIORITY FOR SELECTION WAS FGS – BULLETIN 66, DEP GWIS DATABASE, WMDs, USGS, OTHER AGENCIES.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SURFACE_WATER_MEASURE</attrlabl>
+        <attrdef>Measurable progress in water quality assessment and restoration is characterized by activities inside spatial units such as Watersheds, WBIDs or BMAP areas.  SURFACE_WATER_MEASURE_COUNT denotes by an assigned “yes” or “no” if each spring related water feature in this layer should be included in activity calculations.  Examples for not including a feature is where the WATER RESOURCE is a spring sink, spring drain and/or a spring that has little to no flow.”</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; notes added by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPRING_NAME</attrlabl>
+        <attrdef>DEP ASSIGNED SPRING NAME USING A UNIQUE STATEWIDE NAMING CONVENTION. THIS STATEWIDE NAMING TABLE OFFERS A CONSISTENT METHOD BETWEEN AGENCIES TO CORRECTLY IDENTIFY SPRINGS.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATION_NAME</attrlabl>
+        <attrdef>DATA PROVIDER ASSIGNED STATION NAME THAT CAN BE MORE DESCRIPTIVE THAN SPRING NAME AND DOES NOT HAVE TO ADHERE TO STATEWIDE NAMING CONVENTION.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATION_ALIAS</attrlabl>
+        <attrdef>ALTERNATE SYNONYMOUS STATION NAMES</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; collected by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>RESOURCE_</attrlabl>
+        <attrdef>WATER FEATURE TYPE ASSIGNED FROM STANDARD VALUE LIST (e.g., Spring_vent, Spring_Boil, Spring_Seep, Spring_Drain, Spring_Run, Spring_Rise, Karst_Window, Spring_General, Spring_Conduit, Spring_Conduit_Tubing)</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DATA_SOURCE</attrlabl>
+        <attrdef>ORIGINATOR OF THE INFORMATION USED FOR PART OF THE RECORDS IN THIS DATASET.
+
+
+</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATION_COMMENTS</attrlabl>
+        <attrdef>ANY HELPFUL COMMENTS ABOUT THE STATION</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SPRING_KEY</attrlabl>
+        <attrdef>DEP ASSIGNED DURATION NUMBER FOR EACH SPRING INCLUDED IN THE COMPREHENSIVE SPRINGS MASTERLIST</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SAMPLE_FREQUENCY</attrlabl>
+        <attrdef>DATA PROVIDER’S MONITORING FREQUENCY FOR THE STATION AT THE TIME OF COMPILING STATION INFORMATION.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS or data provider.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>SOURCE_WATER</attrlabl>
+        <attrdef>SOURCE WATER FOR SPRING DISCHARGE IS DETERMINED BY VARIOUS METHODS SUCH AS DYE TRACE, DIVING INTO THE CONDUITS, OR GEOCHEMICAL ANALYSES. THE SOURCE OF THE WATER AT A SPRING CAN BE FROM GROUND WATER, RIVER WATER, SINKHOLE FLOW, RUNOFF, OR OTHER MEANS AND COMMONLY A COMBINATION. THE WATER THAT EXITS FROM A SPRING IS TREATED AS SURFACE WATER ONCE IT EXITS THE VENT AND WATER QUALITY CRITERIA FOR SURFACE WATER IS APPLIED.
+
+
+</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>QA_STATUS</attrlabl>
+        <attrdef>Quality Assurance Stattus</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIRSTMAG_GROUP</attrlabl>
+        <attrdef>1st MAGNITUDE SPRINGS OR SPRING GROUPS THAT WERE RECOGNIZED BY FLORIDA SPRING INITIATIVE IN 2002. NO GROUPS WERE FORMED AFTER THAT INITIAL LIST WAS FORMALIZED. GROUPS WERE ADMINISTRATIVELY FORMED AND ARE NOT NECESSARILY BASED ON HYDROLOGICAL CONNECTIONS. THE ASSIGNED FIRST MAGNITUDE GROUPS OR SPRINGS HAVE NOT BEEN UPDATED AND SOME OF THE INDIVIDUAL SPRINGS ARE NO LONGER 1ST MAGNITUDE. DEP MAGNITUDE CLASSIFICATION SYSTEM DETAILED BELOW IS FROM GWMS PUBLICATION FLORIDA SPRINGS INITIATIVE MONITORING NETWORK REPORT AND RECOGNIZED SOURCES OF NITRATE (HARRINGTON ET.AL. 2010) AND FLORIDA’S SPRINGS 2010 MASTERLIST (HARRINGTON AND WANG 2010). FLORIDA SPRINGS CLASSIFICATION SYSTEM AND MAGNITUDE CLASS WAS ADOPTED BY FLORIDA SPRINGS NOMENCLATURE COMMITTEE (FSNC 2003, 2005).</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; notes by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HISTORIC_MAGNITUDE</attrlabl>
+        <attrdef>HISTORIC MAGNITUDE IS THE DISCHARGE CATEGORY THAT CAN BE BASED ON THE ENTIRE PERIOD OF RECORD OR A PORTION OF THE OLDER DISCHARGE DATA. HISTORICAL MAGNITUDE CAN ALSO BE ASSIGNED INSTEAD OF A CALCULATION ON DATA. HISTORICAL MAGNITUDE MAY NOT MATCH MAGNITUDE THAT IS BASED PRIMARILY ON MORE RECENT DATA. DEP MAGNITUDE CLASSIFICATION SYSTEM DETAILED BELOW IS FROM GWMS PUBLICATION 2010 SPRINGS NETWORK MONITORING REPORT (Harrington et al 2010). FLORIDA SPRINGS CLASSIFICATION SYSTEM AND MAGNITUDE CLASS WAS ADOPTED BY FLORIDA SPRINGS NOMENCLATURE COMMITTEE (FSNC 2003, 2005). FSNC COMMITTEE SUGGESTED THAT HISTORIC MAGNITUDE SHOULD BE BASED ON DISCHARGE DATA PRIOR TO 2001 (FGS SPECIAL PUBLICATION NO. 52 REVISED).</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and providers of data</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>6th Magnitude - &gt;1 to 10 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>UNKNOWN</edomv>
+            <edomvd>Unknown - No record of spring discharge available</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Not Flowing</edomv>
+            <edomvd>Not Flowing - No longer flowing but may recover (may have spring pool)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>5th Magnitude - &gt;10 to 100 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>1st Magnitude - &gt; 100 cubic feet per second (cfs)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>4th Magnitude - &gt;100 gal/min (gallons per minute) - 448 gal/min (1 cfs)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>2nd Magnitude - &gt;10 - 100 cfs</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>3rd Magnitude - &gt;1 - 10 cfs</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Never Flowing</edomv>
+            <edomvd>Never Flowing - No longer flowing at any time even under high precipitation events and/or flood conditions</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>7th Magnitude - &gt;1 pint to 1 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>8th Magnitude - Equal to or less than 1 pint/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ALBERS_X</attrlabl>
+        <attrdef>X VALUE FOR ALBERS EQUAL-AREA CONIC PROJECTION. LOCATIONAL DATA PROVIDED IN THE DEP CUSTOM ALBERS PROJECTION IN THE HPGN DATUM</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; Calculated by DEP GWMS and DEAR GIS staff.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GROUP_MAGNITUDE</attrlabl>
+        <attrdef>GROUP MAGNITUDE IS BASED ON THE HISTORIC SELECTION OF A GROUP OF SPRINGS AND THEIR COMBINED FLOW TO DETERMINE DISCHARGE CATEGORY. THE PURPOSE OF CREATING SPRINGS GROUPS IN THE PAST WAS TO CREATE A COMBINED DISCHARGE THAT WOULD BE &gt;100 CFS AND QUALIFY AS FIRST MAGNITUDE. DEP RECOGNIZED SPRING GROUPS WERE LISTED IN ROSENAU ET AL (1977), FLORIDA SPRINGS TASK FORCE (2000), DEP FGS OFR85 FIRST MAGNITUDE SPRINGS OF FLORIDA (2002) AND DEP FGS SPRINGS OF FLORIDA BULLETIN 66 (2003). THERE WERE NO DEP ADDITIONAL COMBINED MAGNITUDE GROUPS FORMED AFTER 2003 SO ONLY RECOGNIZED SPRING GROUPS SHOULD BE USED. THE HISTORIC COLLECTION OF SPRINGS IN A GROUP DOES NOT NECESSARILY INDICATE HYDROLOGIC CONNECTIONS EXIST. THE ASSIGNED FIRST MAGNITUDE GROUPS OR SPRINGS HAVE NOT BEEN UPDATED AND SOME OF THE INDIVIDUAL SPRINGS ARE NO LONGER 1ST MAGNITUDE. DEP MAGNITUDE CLASSIFICATION SYSTEM DETAILED BELOW IS FROM GWMS PUBLICATION 2010 SPRINGS NETWORK MONITORING REPORT (Harrington et al 2010). FLORIDA SPRINGS CLASSIFICATION SYSTEM AND MAGNITUDE CLASS WAS ADOPTED BY FLORIDA SPRINGS NOMENCLATURE COMMITTEE (FSNC 2003, 2005).</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS; DEP recognized spring groups from Rosenau et al , Florida Springs Task Force (2000), DEP FGS Open File Report 85 First Magnitude Springs of Florida (2002) AND DEP FGS Springs of Florida Bulletin 66 (2003).</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>1st Magnitude - &gt; 100 cubic feet per second (cfs) </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>2nd Magnitude - &gt;10 - 100 cfs </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>3rd Magnitude - &gt;1 - 10 cfs </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>4th Magnitude - &gt;100 gal/min (gallons per minute) - 448 gal/min (1 cfs)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>5th Magnitude - &gt;10 to 100 gal/min </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>6th Magnitude - &gt;1 to 10 gal/min </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>7th Magnitude - &gt;1 pint to 1 gal/min </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>8th Magnitude - Equal to or less than 1 pint/min </edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION_ID</attrlabl>
+        <attrdef>Unique code to identify station by data provider.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; collected by DEP GWMS from data providers.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAGNITUDE_COMMENT</attrlabl>
+        <attrdef>NOTES FROM STAFF REGARDING MAGNITUDE CLASSIFICATION AND/OR DISCHARGE INFORMATION. FIRST MAGNITUDE SPRINGS OR SPRING GROUPS HISTORICALLY RECOGNIZED BY DEP HAVE THE PUBLICATION NOTED.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; notes added by DEP GWMS</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>MAGNITUDE</attrlabl>
+        <attrdef>MAGNITUDE IS THE DISCHARGE CATEGORY BASED ON MORE RECENT FLOW DATA FOR THE INDIVIDUAL SPRING THAT MAY NOT MATCH HISTORIC MAGNITUDE OR GROUP MAGNITUDE. DEP MAGNITUDE CLASSIFICATION SYSTEM DETAILED BELOW IS FROM GWMS PUBLICATION 2010 SPRINGS NETWORK MONITORING REPORT (Harrington et al 2010). FLORIDA SPRINGS CLASSIFICATION SYSTEM AND MAGNITUDE CLASS WAS ADOPTED BY FLORIDA SPRINGS NOMENCLATURE COMMITTEE (FSNC 2003, 2005).
+
+MAGNITUDE is based on the more recent years discharge at an individual vent, HIST_MAG is assigned or based on discharge from historic years especially prior to 2001. GROUP_MAG is based on the early years of the Springs Initiative where some springs were grouped together to form1st magnitude groups for funding purposes. The Florida Springs Initiative in 2002 recognized 33 First Magnitude Springs and Spring Groups that included karst windows and river rises. The list of these 1st Magnitude Springs and Spring Groups from 2002 can be found in the table with comments in 1STMAG_GRP. The DEP also published a document in 2002 FIRST MAGNITUDE SPRINGS OF FLORIDA (Open File Report 85) that detailed the 1st Magnitude Springs. There is a reference in the MAG_COMMENT for the 1st Magnitude Springs that were specifically named in this publication. More 1st Magnitude Springs have been added since that time and they are found in the MAGNITUDE field.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWSPS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Not Flowing </edomv>
+            <edomvd>Not Flowing - No longer flowing but may recover (may have spring pool)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>2nd Magnitude - &gt;10 - 100 cfs</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Never Flowing </edomv>
+            <edomvd>Never Flowing - No longer flowing at any time (dry spring pool and run)</edomvd>
+            <edomvds>2010 DEP Springs Network Monitoring Report (Harrington et al. 2010) Category added by GWMS to magnitude categories based on FGS Springs of Florida - Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>7th Magnitude - &gt;1 pint to 1 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>1st Magnitude - &gt; 100 cubic feet per second (cfs)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>8th Magnitude - Equal to or less than 1 pint/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>6th Magnitude - &gt;1 to 10 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>3rd Magnitude - &gt;1 - 10 cfs</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>5th Magnitude - &gt;10 to 100 gal/min</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Unknown</edomv>
+            <edomvd>Unknown - No record of spring discharge available</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>4th Magnitude - &gt;100 gal/min (gallons per minute) - 448 gal/min (1 cfs)</edomvd>
+            <edomvds>DEP Magnitude categories based on 2010 DEP Springs Network Monitoring Report (Harrington et al., 2010) ; DEP FGS Springs of Florida – Bulletin 66 (2004); and Rosenau et al. (1977), p. 4, as adapted from Meinzer (1927), p. 3)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPRING_CLUSTER</attrlabl>
+        <attrdef>GROUP OR CLUSTER. COLLECTIONS OF SPRINGS THAT ARE MARKED AS PART OF A CLUSTER WHERE A HYDROLOGIC CONNECTION MAY OR MAY NOT BE VERIFIED. THE SPRINGS MAY ALSO BE INCLUDED IN THE ESTABLISHED SPRING GROUPS (FIELD NAME IS GROUP_MAG IN THIS DOCUMENT). THIS DOES NOT IMPLY A HYDROLOGIC CONNECTION EXISTS BETWEEN SPRINGS INCLUDED IN A GROUP OR CLUSTER. THE SPRING CLUSTERS CAN BE UPDATED TO INCLUDE DIFFERENT SPRINGS OR REVISE THE CLUSTER NAMES.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>HISTORIC_CLUSTER</attrlabl>
+        <attrdef>GROUP OR CLUSTER. HISTORIC COLLECTIONS OF SPRINGS COLLECTIONS OF SPRINGS THAT ARE MARKED AS PART OF A CLUSTER WHERE A HYDROLOGIC CONNECTION MAY OR MAY NOT BE VERIFIED. THE SPRINGS MAY ALSO BE INCLUDED IN THE ESTABLISHED SPRING GROUPS (FIELD NAME IS GROUP_MAG IN THIS DOCUMENT). THIS DOES NOT IMPLY A HYDROLOGIC CONNECTION EXISTS BETWEEN SPRINGS INCLUDED IN A GROUP OR CLUSTER. SOME HISTORIC CLUSTERS MAY BE DIFFERENT THAN THOSE IN CURRENT SPRING CLUSTERS. THE HISTORIC CLUSTERS ARE NOT REVISED UNLESS ADDITIONAL HISTORIC INFORMATION IS OBTAINED.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TIDAL</attrlabl>
+        <attrdef>Notes about whether the station’s water quality, stage or discharge is influenced by tidal fluctuations.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS or data provider.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DMS_LAT</attrlabl>
+        <attrdef>Latitude in Degrees Minute Seconds</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PK_STATION</attrlabl>
+        <attrdef>UNIQUE CODE TO IDENTIFY STATION FROM DATA PROVIDER</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; primary key for DEP Ambient Database (GWIS) collected by DEP and other data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DMS_LON</attrlabl>
+        <attrdef>LONGITUDE IN DEGREES MINUTE SECONDS</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DATUM_ALBERS</attrlabl>
+        <attrdef>THE DATUM IS THE MEASUREMENT SYSTEM OF POSITION FOR THE EARTH'S SURFACE FOR LATITUDE AND LONGITUDE. THIS WAS USED TO CONVERT THE NATIVE LAT/LONG INFORMATION TO ALBERS. DATUM USED TO CALCULATE ALBERS COORDINATES - COMMONLY NAD27, NAD83, WGS84
+
+
+</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>STATION_QA</attrlabl>
+        <attrdef>Notes from the data provider and locational quality assurance (QA) process.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS.</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>LOCATION_METHOD</attrlabl>
+        <attrdef>THE METHOD OR MECHANISM USED TO OBTAIN THE GEOGRAPHIC LAT LON COORDINATE INFORMATION USING SOMETHING SUCH AS GPS UNIT, MAP INTERPOLATION ETC.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS and data providers</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>ALBERS_Y</attrlabl>
+        <attrdef>Y - Coordinate value for Albers equal-area conic projection. Locational data provided in the DEP custom Albers projection in the HPGN datum.</attrdef>
+        <attrdefs>DEP Division of Environmental Assessment and Restoration; assigned by DEP GWMS</attrdefs>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180724</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd</address>
+          <address>MS 6520</address>
+          <city>Tallahassee</city>
+          <state>Florida</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

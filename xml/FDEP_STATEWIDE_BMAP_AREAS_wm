@@ -1,0 +1,1375 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kevin Coyne , FDEP, Division of Environmental Assessment &amp; Restoration (DEAR) , Environmental Administrator </origin>
+        <pubdate>20110629</pubdate>
+        <title>Statewide BMAP General Areas</title>
+        <geoform>vector digital data</geoform>
+        <onlink>http://publicfiles.dep.state.fl.us/otis/gis/data/STATEWIDE_BMAP_AREAS.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A BMAP (Basin Management Action Plan) is a water quality restoration plan prepared pursuant to Section 403.067(7) Florida Statutes. BMAPs are designed to reduce pollutant loadings to achieve the limitations identified in an adopted Total Maximum Daily Load (TMDL) through a comprehensive set of management strategies - permit limits on wastewater facilities, urban and agricultural best management practices, conservation programs, etc. These broad-based plans are developed with local stakeholders - they rely on local input and local commitment - and are adopted by Secretarial Order and are enforceable.</abstract>
+      <purpose>To spatially represent the areas where a BMAP is being prepared and areas where a BMAP is adopted. The purpose of this layer to show the land areas subject to a BMAP and the water areas that are being restored.</purpose>
+      <supplinf>BMAP Standing/Status Values: BMAP Adopted / Adoption Pending: BMAP Adopted - The BMAP has been adopted by the Secretary and stakeholder implementation is underway. Adoption Pending - A process to prepare a BMAP is underway; the BMAP is not yet adopted.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20180712</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Date data was updated in the GIS library</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.341710</westbc>
+        <eastbc>-80.173754</eastbc>
+        <northbc>31.000901</northbc>
+        <southbc>26.316808</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Stakeholders and TMDL</themekey>
+        <themekey>Best Management</themekey>
+        <themekey>Adoption Pending</themekey>
+        <themekey>BMAP</themekey>
+        <themekey>Environmental Monitoring and Modeling</themekey>
+        <themekey>Adopted</themekey>
+        <themekey>Basin Management Action Plan</themekey>
+        <themekey>Water Resources (Inland)</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Florida</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Use is limited to showing approximate feature delineations. This layer is not intended for legal decision making. BMAP Boundaries are subject to change during development stages and are not final until adoption of the BMAP.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+          <cntper>Ronald Hughes</cntper>
+        </cntorgp>
+        <cntpos>Environmental Specialist III</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <city>2600 Blair Stone Rd</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>850-245-8541</cntvoice>
+        <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+        <cntinst>For GIS related inquiries please contact Ronald Hughes.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>FDEP, Division of Environmental Assessment &amp; Restoration (DEAR) </cntorg>
+          <cntper>Kevin Coyne </cntper>
+        </cntorgp>
+        <cntpos>Environmental Administrator </cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>850-245-8555</cntvoice>
+        <cntemail>Kevin.Coyne@dep.state.fl.us</cntemail>
+        <cntinst>For BMAP questions not pertaining to GIS, please contact Kevin Coyne.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>FDEP</datacred>
+    <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <procstep>
+        <procdesc>Updated and corrected the Contact E-Mail information for Beth Alvi, Sara Davis and Moira Homann. Changed the Contact Name Moira Rojas to Moira Homann. Changes made at the request of WPC (BMAP) Section.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Existing BMAP Project shapefiles from the November 2010 update were edited, updated and merged into one streamlined shapefile. BMAP Project Boundaries consisting of multiple shapefile records were dissolved into shapefiles with single records. Updated boundaries were verified for accuracy by way of direct communication with Basin Coordinators. Corrections and adjustments were made as needed.</procdesc>
+        <procdate>20110429</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updates for July 2011 BMAP have been incorporated and final BMAP Project updates have been verified. Submitted as a new SDE Layer</procdesc>
+        <procdate>20110721</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Added new layer in ArcSDE. Metadata updated, data published in DataMiner</procdesc>
+        <procdate>20110729</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updates and revisions for October 2011 BMAP have been incorporated and verified.</procdesc>
+        <procdate>20111005</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Submitted for SDE update</procdesc>
+        <procdate>20111006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updates and revisions for June 2012 BMAP update request have been incorporated and verified. Wagner Creek removed.</procdesc>
+        <procdate>20120618</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Santa Fe BMAP boundary updated by RH for Terry Hansen</procdesc>
+        <procdate>20120918</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updates and revisions for December 2012 BMAP update request have been incorporated and verified. Indian River Lagoon boundary has been removed and replaced by Banana River, Central Indian River Lagoon and North Indian River Lagoon. Rainbow Springs/Rainbow River and Silver Springs/Silver River have been added. Hendry Creek and Imperial River are now seperate boundaries. Contacts have been revised.</procdesc>
+        <procdate>20121127</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Submitted for SDE Update</procdesc>
+        <procdate>20121210</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data in SDE and symbology. Metadata updated</procdesc>
+        <procdate>20121212</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Caloosahatchee: Referenced WBID boundaries to fill in the river portion on 20130107 with Beth Alvi's approval. RH changed Status from Adoption Pending to Adopted after checking FDEP BMAP page. Everglades West Coast Basin (Formerly Hendry Creek and Imperial River respectively): Hendry Creek and Imperial River were split into separate boundaries on 20121024 at Anita Nash's request. Hendry Creek was updated, regrouped with Imperial as one boundary and Renamed Everglades West Coast Basin on 20130107 at Anita's request. RH changed Status from Adoption Pending to Adopted after checking FDEP BMAP page. Silver Springs and Silver River: Edited using Silver Springs springshed polygon from groundwater section on 20130103. This boundary could change in the future. Rainbow Springs and Rainbow River: Edited using Rainbow Springs springshed polygon from groundwater section on 20130103. This boundary could change in the future. Upper Wakulla River (Formerly Wakulla River, Munson Slough and Lake Munson): Combined WBID 1006 with Wakulla Springshed from groundwater section and changed name to Upper Wakulla River on 20130108 for Anita Nash. Lake Okeechobee RA Plan: Revised 20130111 using a shapefile obtained from Kim Jackson at request of Anita Nash. Coincides with Lake Okeechobee BMAP boundary. Revised again on 20130215 using shapefile from Kim. Lake Okeechobee BMAP: Created on 20130111 using a shapefile obtained from Kim Jackson at request of Anita Nash. Beth Alvi confirmed that she will be Basin Coordinator. Coincides with Lake Okeechobee RA Plan boundary. Revised again on 20130215 using shapefile from Kim. Wekiva: Revised the boundary to include the groundwater portion on 20130122. Initially notified of the error by the Eric Hicks in the Groundwater section. Shares space with Upper Ocklawaha. Lake Tohopekaliga: Acquired shapefile from Beth Alvi whose data source was Kimberly Lawrence from Osceola County Public Works on 20130111. St. Lucie: Updated on 20130110 at request of Anita Nash. Central Indian River Lagoon: Revised 20130110 for Anita. Gottfried Creek: Deleted on 20130122 at the request of Anita Nash. It was determined that Walk the WBIDs should be on a separate layer. Santa Fe: Re-edited on 20130129 for Terry Hansen at request of Anita Nash. Changed Status from Adoption Pending to Adopted for Anita. Tampa Bay (RA Plan): Revised 20130129 at request of Anita Nash. Used a shapefile obtained from Ed Sherwood from the Tampa Bay Estuary Program. Alafia River Basin: Revised for Anita Nash on 20130129 using Alafia River Planning Unit from Run 41. Suwannee BMAP boundary updated on 20130215 using new shapefile sent by Yesenia Escribano on 20130214. Shapefile was edited to match the edge of the edited Santa Fe BMAP boundary at request of Terry Hansen. Unnamed Branch deleted on 20130305 at Anita's request. Deleted lake Okeechobee "Areas undergoing Restoration Supporting TMDL Implementation" since the BMAP is now underway at Charles Gauthier's request on 20130306. Created Jackson Blue Spring on 20130306. Official BMAP yet to be determined. Composed of WBID180A and WBID180Z. Updated Wakulla Springs BMAP on 20130322 using information from Anita Nash. Submitted for SDE update with updates to shapefile, metadata and layer file on 20130412 by RH.</procdesc>
+        <procdate>20130412</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>20130703 - St. Lucie BMAP status was changed to Adopted at request of Charles Gauthier. 20131216 - Rainbow Springs/Rainbow River BMAP Boundary was updated and the status was changed to BMAP Activities in Progress at request of Terry Hansen and Charles Gauthier. Submitted for SDE update.</procdesc>
+        <procdate>20131216</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data in SDE/DataMiner. Metadata updated</procdesc>
+        <procdate>20131223</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>20140103 - Added DOC_NAME (Document Name) field to the shapefile table at the request of BMAP section. 20140103 - Removed "Anticipated Basin Management Action Plans" and "RA Plans and Other Non-BMAP TMDL Implementation" STATUS classifications at the request of Charles Gauthier. This means that only "Adopted Basin Management Action Plans" and "Anticipated Basin Management Action Plans" will remain. 20140117 - Revised Lake Okeechobee BMAP at request of Anita Nash and Beth Alvi. Revisions are still underway at this time but Beth Alvi has put in a special request to submit this shapefile to SDE today.</procdesc>
+        <procdate>20140117</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data updated in ArcSDE/DataMiner. New field 'DOC_NAME' added in attribute table.</procdesc>
+        <procdate>20140117</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>20140212 - Alafia, Manatee, and Hillsborough BMAP boundaries are now represented by WBID areas instead of the larger basin area. 20140212 - Lake Okeechobee BMAP had the Lake Okeechobee water body placed back into its boundary. 20140212 - Lake Harney, Lake Jesup, St. Lucie and Lake Okeechobee boundaries now include the water bodies as well, which keeps with the Statewide BMAP General Areas theme to represent the entire BMAP area, both land and water, where a BMAP is being prepared or adopted). 20140212 - Alafia and Manatee BMAP Basin Status has been ugraded ot Adopted. 20140212 - Long Branch, Lake Jesup, Lake Harney / Monroe, and Wekiva BMAP basins have been assigned to new BMAP Coordinator Moira Rojas. 20140312 - The Metadata Abstract and Purpose has been updated. 20140312 - The Metadata Entity and Attribute Overview Description and Attribute Domain Values have been revised. 20140319 - Submitted for SDE update with DataMiner layer name changed to Statewide BMAP General Areas.</procdesc>
+        <procdate>20140313</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data updated in SDE/DataMiner. Display name changed to Statewide BMAP General Areas.</procdesc>
+        <procdate>20140320</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Jackson Blue Spring, Kings Bay and Crystal River Springs and Weeki Wachee have been added to the layer. They are BMAP Activities in Progress. Submitted to SDE on 20140703.</procdesc>
+        <procdate>20140701</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Data updated in ArcSDE and DataMiner. Metadata updated</procdesc>
+        <procdate>20140707</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>20140723 - Added Volusia Blue Springshed BMAP Boundary. 20140730 - Updated Jackson Blue Spring BMAP Boundary. Removed portion that extended beyond FL state line and added a previously cut out corridor in the southwestern portion of the BMAP.</procdesc>
+        <procdate>20140730</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Charles Gauthier at 850-245-8555 or Charles.Gauthier@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data updated in ArcSDE and DataMiner. Metadata updated.</procdesc>
+        <procdate>20140804</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated Silver Springs boundary using a shapefile obtained from Mary Paulic.</procdesc>
+        <procdate>20140806</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Charles Gauthier at 850-245-8555 or Charles.Gauthier@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data updated in ArcSDE and DataMiner. Metadata updated.</procdesc>
+        <procdate>20140813</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Basin Contacts (Name, Phone Number and Email) with information verified by Basin Coordinator.</procdesc>
+        <procdate>20150102</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Charles Gauthier at 850-245-8555 or Charles.Gauthier@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Lake Okeechobee Basin status to Adopted Basin Management Action Plans at the request of Sara Davis.</procdesc>
+        <procdate>20150108</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Charles Gauthier at 850-245-8555 or Charles.Gauthier@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Obtained updated data from DEAR and updated the same in the GIS library and MapDirect</procdesc>
+        <procdate>20150116</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the BMAP contact information and added a new "PARAMETERS" field at the request of the DEP Watershed Planning and Coordination Section (WPCS) aka BMAP section.</procdesc>
+        <procdate>20150505</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library and MapDirect.</procdesc>
+        <procdate>20150505</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated and corrected the Contact E-Mail information for Beth Alvi, Sara Davis and Moira Homann. Changed the Contact Name Moira Rojas to Moira Homann. Changes made at the request of WPC (BMAP) Section.</procdesc>
+        <procdate>20150609</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Contact information for Wakulla Springs BMAP Basin (from Kevin Coyne to Moira Homann) at request of WPC Section member Yesenia Escribano.</procdesc>
+        <procdate>20150709</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20150710</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Rainbow Springs and Rainbow River, Silver Springs, Upper Wakulla River and Wakulla Springs and Wekiva River, Rock Springs Run, and Little Wekiva Canal have been updated to Adopted Status at the request of WPC Section member Yesenia Escribano.</procdesc>
+        <procdate>20160114</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20160119</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the boundaries of Lower St. Johns Tributaries and Lower St. Johns Tributaries II at the request of Anita Nash.  Submitted for SDE update.</procdesc>
+        <procdate>20160318</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20160318</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Suwannee boundary updated (the boundary has been extended to include the Withlacoochee area) and Jackson Blue Spring Status updated to "Adopted Basin Management Action Plans" at the request of Ben Mittler for Terry Hansen.
+
+</procdesc>
+        <procdate>20160701</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Obtained updated data from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20160705</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated contact information after discussing BMAP updates with Kevin Coyne.</procdesc>
+        <procdate>20170310</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20170313</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Edits to BMAP Boundaries:
+
+Chassahowitzka-Homosassa - Introduced on 20170412.
+
+Suwannee - Revised on 20170412.
+
+Volusia - Revised on 20170412.
+
+Kings Bay - Revised on 20170412.
+
+Weeki Wachee - Revised on 20170412.
+
+Submitted for SDE update.</procdesc>
+        <procdate>20170417</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Obtained updated data from DEAR and updated the same in the GIS library</procdesc>
+        <procdate>20170427</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Changed the Basin Contacts for Indian River Lagoon BMAPs (Banana River, Central Indian River Lagoon and North Indian River Lagoon) and St. Lucie-Loxahatchee from David Glassner to Sara Davis as requested by BMAP section.
+
+
+</procdesc>
+        <procdate>20170721</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20170801</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Weeki Wachee revised.</procdesc>
+        <procdate>20170922</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20170922</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Basin Contact information (Contact Name, Contact Phone, Contact E-Mail) for 6 areas.</procdesc>
+        <procdate>20171011</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20171016</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Wekiva revised.</procdesc>
+        <procdate>20171113</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20171117</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the boundary of Jackson Blue Spring using data provided by Andrew Morris that was approved by Terry Hansen.</procdesc>
+        <procdate>20180122</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Water Data Services Section (WDSS)</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180123</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Revised the boundary of Jackson Blue Spring using data provided by Andrew Morris that was requested by Terry Hansen.</procdesc>
+        <procdate>20180130</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contatct Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>DeLeon Springs and Gemini Springs have been added to the layer using data provided by Talia Smith for Moira Homann.
+</procdesc>
+        <procdate>20180202</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180205</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180208</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Wekiva BMAP boundary has been revised at the request of Moira Homann using spatial data provided by Talia Smith.</procdesc>
+        <procdate>20180416</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180417</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Basin Contacts for the Everglades West Coast Basin and the North Indian River Lagoon Basin.</procdesc>
+        <procdate>20180420</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180503</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated the Basin Contacts for the North Indian River Lagoon Basin as requested by BMAP staff.
+
+Updated description under "Project" and "Doc Name" for DeLeon Spring, Wakulla Spring and Wekiwa Spring and Rock Springs as requested by GIS staff.</procdesc>
+        <procdate>20180518</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180524</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Added Wacissa BMAP boundary for Terry Hansen using spatial and tabular information from Talia Smith.
+
+Introduced Wekiwa Spring and Rock Springs as its own BMAP boundary and reintroduced the Wekiva River (Wekiva River, Rock Springs Run, and Little Wekiva Canal) BMAP boundary at the request of Moira Homann using data provided by Talia Smith.
+
+Added "TYPE" field at Greg DeAngelo's request.  Its purpose is to distinguish between Spring BMAPs and Surface Water BMAPs  (rivers, lakes, estuaries, etc.).  Populated field with either a value of "Spring BMAP" or Surface Water BMAP.
+
+Renamed the value within the "STATUS" field from "BMAP Activities In Progress" to "Pending BMAPs" at Greg DeAngelo's request.  Updated layer file to reflect this change.
+</procdesc>
+        <procdate>20180620</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Ronald Hughes</cntper>
+            </cntorgp>
+            <cntpos>Environmental Specialist III</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <city>2600 Blair Stone Rd</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8541</cntvoice>
+            <cntemail>ronald.hughes@dep.state.fl.us</cntemail>
+            <cntinst>Ronald Hughes is the GIS Contact. For BMAP questions not pertaining to GIS, please contact Kevin Coyne at 850-245-8555 or Kevin.Coyne@dep.state.fl.us</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library. New field 'TYPE' added with this update.</procdesc>
+        <procdate>20180622</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Caloosahatchee River BMAP boundary has been revised at the request of Sara Davis using spatial data provided by Andrew Morris.
+Adopted Basin Management Action Plans was changed to Adopted BMAPs in the STATUS attribute.</procdesc>
+        <procdate>20180711</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) DEAR, Watershed Services Program</cntorg>
+              <cntper>Andrew Morris</cntper>
+            </cntorgp>
+            <cntpos>Environmental Consultant</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntvoice>850-245-8426</cntvoice>
+            <cntemail>Andrew.Morris@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Updated data obtained from DEAR and updated the same in the GIS library.</procdesc>
+        <procdate>20180712</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>2600 Blair Stone Rd, MS 6520</address>
+              <city>Tallahassee</city>
+              <state>FL</state>
+              <postal>32399-2400</postal>
+              <country>US</country>
+            </cntaddr>
+            <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>34</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>FDEP_STATEWIDE_BMAP_AREAS_wm</enttypl>
+      </enttyp>
+      <attr>
+        <attrlabl>CONTACT_PHONE</attrlabl>
+        <attrdef>Contact phone number of BMAP Manager</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTACT_EMAIL</attrlabl>
+        <attrdef>Contact e-mail of BMAP Manager</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ACRES</attrlabl>
+        <attrdef>Area measured in acres. Calculated in Custom FL Albers Projection.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DISTRICT</attrlabl>
+        <attrdef>The FDEP Regulatory District that the BMAP boundary is associated with.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>PROJECT</attrlabl>
+        <attrdef>The BMAP Project Name shown on the map entitled TMDL Implementation: Basin Management Action Plans and other Water Quality Restoration Activities. Represents commonly used names for the BMAP projects.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>SUB_DATE</attrlabl>
+        <attrdef>Date that BMAP spatial boundary was either submitted or updated.</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>CONTACT_NAME</attrlabl>
+        <attrdef>Contact name of BMAP Manager</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>NOTES</attrlabl>
+        <attrdef>Notes pertaining to the BMAP project</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>STATUS</attrlabl>
+        <attrdef>Current stage within the BMAP developmental process.</attrdef>
+        <attrdomv>
+          <edom>
+            <edomv>BMAP Adopted</edomv>
+            <edomvd>The BMAP has been adopted by the Secretary and stakeholder implementation is underway.</edomvd>
+            <edomvds>BMAP Section</edomvds>
+          </edom>
+          <edom>
+            <edomv>BMAP Activities in Progress</edomv>
+            <edomvd>A process to prepare a BMAP is underway; the BMAP is not yet adopted.</edomvd>
+            <edomvds>BMAP Section</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GROUP_NUM</attrlabl>
+        <attrdef>Basin Rotation Group number 1-5</attrdef>
+        <attrdefs>TMDL Basin Groups</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>PARAMETERS</attrlabl>
+        <attrdef>The Parameters being addressed by the BMAP basins.</attrdef>
+        <attrdefs>DEP, DEAR, Watershed Planning and Coordination Section (WPCS) </attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>DOC_NAME</attrlabl>
+        <attrdef>Standardized BMAP document name to be used in current and future BMAP documents.</attrdef>
+        <attrdefs>FDEP BMAP Section</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>GROUP_NAME</attrlabl>
+        <attrdef>The name of the TMDL Basin Rotation Group that the BMAP boundary lies within</attrdef>
+        <attrdefs>TMDL Basin Groups</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>TYPE</attrlabl>
+        <attrdef>The waterbody type value used to distinguish between Spring BMAPs and Surface Water BMAPs  (rivers, lakes, estuaries, etc.).</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <metainfo>
+    <metd>20180727</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Florida Department of Environmental Protection (FDEP) OTIS/GIS Section</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2600 Blair Stone Rd, MS 6520</address>
+          <city>Tallahassee</city>
+          <state>FL</state>
+          <postal>32399-2400</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntemail>GIS.Librarian@dep.state.fl.us</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

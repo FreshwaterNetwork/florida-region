@@ -1,0 +1,401 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?><html xmlns="http://www.w3.org/1999/xhtml" xmlns:res="http://www.esri.com/metadata/res/" xmlns:gmd="http://www.isotc211.org/2005/gmd"><head><meta http-equiv="content-type" content="text/html; charset=UTF-8" /><style type="text/css" id="internalStyle" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+    body {
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 0.8em;
+      font-weight: 500;
+      color: #000020;
+      background-color: #FFFFFF;
+    }
+    div.itemDescription {
+      margin-right: 2em;
+      margin-bottom: 2em;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+    h1.idHeading {
+      color: #008FAF;
+      text-align: center;
+    }
+    h1.gpHeading {
+      color: black;
+    }
+    span.idHeading {
+      color: #007799;
+      font-weight: bold;
+    }
+    .center {
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    img {
+      width: 210px;
+      border-width: 1px;
+      border-style: outset;
+    }
+    img.center {
+      text-align: center;
+      display: block;
+      border-color: #666666;
+    }
+    img.enclosed {
+      width: 60%;
+    }
+    img.gp {
+      width: auto;
+      border-style: none;
+      margin-top: -1.2em;
+    }
+    .noThumbnail {
+      color: #888888;
+      font-size: 1.2em;
+      border-width: 1px;
+      border-style: solid;
+      border-color: black;
+      padding: 3em 3em;
+      position: relative;
+      text-align: center;
+      width: 210px;
+      height: 140px;
+    }
+    .noContent {
+      color: #888888;
+    }
+    .itemInfo p {
+      margin-top: -0.1em;
+    }
+    .itemInfo img {
+      width: auto;
+      border: none;
+    }
+    .gpItemInfo p {
+      margin-top: -1.2em;
+    }
+    div.box {
+      margin-left: 1em;
+    }
+    div.hide {
+      display: none;
+    }
+    div.show {
+      display: block;
+    }
+    span.hide {
+      display: none;
+    }
+    span.show {
+      display: inline-block;
+    }
+    .backToTop a {
+      color: #DDDDDD;
+      font-style: italic;
+      font-size: 0.85em;
+    }
+    h2 {
+      font-size: 1.2em;
+    }
+    h2.gp {
+      color: #00709C;
+    }
+    .gpsubtitle {
+      color: black;
+      font-size: 1.2em;
+	  font-weight: normal;
+    }
+    .gptags {
+      color: black;
+      font-size: 0.8em;
+	  font-weight: normal;
+    }
+    .head {
+      font-size: 1.3em;
+    }
+    a:link {
+      color: #098EA6;
+      font-weight: normal;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #098EA6;
+      text-decoration: none;
+    }
+    a:link:hover, a:visited:hover {
+      color: #007799;
+      background-color: #C6E6EF;
+    }
+    h2.iso a {
+      color: #007799;
+      font-weight: bold;
+    }
+    .iso a:link {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:visited {
+      color: #007799;
+      text-decoration: none;
+    }
+    .iso a:link:hover, .iso a:visited:hover {
+      color: #006688;
+      background-color: #C6E6EF;
+    }
+    h2.fgdc a {
+      color: #888888;
+      font-weight: bold;
+    }
+    .fgdc a:link {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:visited {
+      color: #888888;
+      text-decoration: none;
+    }
+    .fgdc a:link:hover, .fgdc a:visited:hover {
+      color: #777777;
+      background-color: #C6E6EF;
+    }
+	h3 {
+		font-size: 1em; 
+		color: #00709C;
+	}
+    .backToTop {
+      color: #AAAAAA;
+      margin-left: 1em;
+    }
+    p.gp {
+      margin-top: .6em;
+      margin-bottom: .6em;
+    }
+    ul ul {
+      list-style-type: square;
+    }
+    ul li.iso19139heading {
+      margin-left: -3em;
+	  list-style: none;
+	  font-weight: bold;
+      color: #666666;
+    }
+    dl {
+      margin: 0;
+      padding: 0;
+    }
+    dl.iso {
+      background-color: #F2F9FF;
+    }
+    dl.esri {
+      background-color: #F2FFF9;
+    }
+    dl.subtype {
+      width: 40em;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      padding: 0;
+    }
+    dt {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dt {
+      width: 60%;
+      float: left;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dt.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    dd {
+      margin-left: 0.6em;
+      padding-left: 0.6em;
+      clear: left;
+    }
+    .subtype dd {
+      float: left;
+      width: 25%;
+      margin: 0;
+      padding: 0.5em 0.5em 0 0.75em;
+      border-top: 1px solid #006400;
+      clear: none;
+    }
+    .subtype dd.header {
+      padding: 0.5em 0.5em 0.5em 0;
+      border-top: none;
+    }
+    .isoElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .esriElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #006688;
+    }
+    .element {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #666666;
+    }
+    unknownElement {
+      font-variant: small-caps;
+      font-size: 0.9em;
+      font-weight: normal;
+      color: #333333;
+    }
+    .sync {
+      color: #006400;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .syncOld {
+      color: #888888;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
+    .textOld {
+      color: #999999;
+    }
+    .code {
+      font-family: monospace;
+    }
+    pre.wrap {
+      width: 96%;
+      font-family: Verdana, Gill, Helvetica, Sans-serif ;
+      font-size: 1em;
+      margin: 0 0 0 0;
+      white-space: pre-wrap;       /* css-3 */
+      white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+      white-space: -pre-wrap;      /* Opera 4-6 */
+      white-space: -o-pre-wrap;    /* Opera 7 */
+      word-wrap: break-word;       /* Internet Explorer 5.5+ */
+    }
+    pre.wrap p {
+      padding-bottom: 1em;
+    }
+    pre.wrap li {
+      padding-bottom: 1em;
+    }
+    pre.wrap br {
+      display: block;
+    }
+    pre.gp {
+      font-family: Courier New, Courier, monospace;
+      line-height: 1.2em;
+    }
+    .gpcode {
+      margin-left:15px;
+      border: 1px dashed #ACC6D8;
+      padding: 10px;
+      background-color:#EEEEEE;
+      height: auto;
+      overflow: scroll; 
+      width: 96%;
+    }
+    tr {
+      vertical-align: top;
+    }
+    th {
+      text-align: left;
+      background: #dddddd;
+      vertical-align: bottom;
+      font-size: 0.8em;
+    }
+    td {
+      background: #EEEEEE;
+      color: black;
+      vertical-align: top;
+      font-size: 0.8em;
+    }
+    td.description {
+      background: white;
+    }
+  </style><script type="text/javascript" xmlns="" xmlns:esri="http://www.esri.com/metadata/">
+	/*  */
+		function hideShow(divID) {
+			var item = document.getElementById(divID);
+			var itemShow = document.getElementById(divID + 'Show');
+			var itemHide = document.getElementById(divID + 'Hide');
+			if (item) {
+				if (item.className == 'hide') {
+					item.className='show';
+					itemShow.className='hide';
+					itemHide.className='show';
+				}
+				else {
+					item.className='hide';
+					itemShow.className='show';
+					itemHide.className='hide';
+				}
+			}
+		}
+	/*  */
+	</script></head><body oncontextmenu="return true"><div class="itemDescription" id="overview" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><h1 class="idHeading"><span class="noContent">No Title</span></h1><div class="center"><div class="noThumbnail">Thumbnail Not Available</div></div><p class="center"><span class="idHeading">Tags</span><br /><span class="noContent">There are no tags for this item.</span></p><br /><div class="itemInfo"><span class="idHeading">Summary</span><p><span class="noContent">There is no summary for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Description</span><p><span class="noContent">There is no description for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Credits</span><p><span class="noContent">There are no credits for this item.</span></p></div><div class="itemInfo"><span class="idHeading">Use limitations</span><p><span class="noContent">There are no access and use limitations for this item.</span></p></div><p><span class="idHeading">Extent</span><br /><span class="noContent">There is no extent for this item.</span></p><p><div><span class="idHeading">Scale Range</span></div><span class="noContent">There is no scale range for this item.</span></p></div><h2 class="iso head"><a href="#arcgisMetadata" onclick="hideShow('arcgisMetadata')" title="Content created and managed in the Description tab">ArcGIS Metadata <span id="arcgisMetadataShow" class="hide">▼</span><span id="arcgisMetadataHide" class="show">►</span></a></h2><div class="show" id="arcgisMetadata" xmlns="" xmlns:esri="http://www.esri.com/metadata/" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><div class="box arcgis"><div><a name="TopArcGIS" id="TopArcGIS" /></div><h2 class="iso"><a onclick="hideShow('ID0ECA')" href="#ID0ECA">Fields 
+			<span id="ID0ECAShow" class="hide">▼</span><span id="ID0ECAHide" class="show">►</span></a></h2><div class="show" id="ID0ECA"><a onclick="hideShow('ID0EACA')" href="#ID0EACA"><dt><span class="esriElement">Details for object</span> USGS_stream_gauges 
+					<span id="ID0EACAShow" class="hide">▼</span><span id="ID0EACAHide" class="show">►</span></dt></a><div class="show" id="ID0EACA"><dl><a onclick="hideShow('ID0E0RB0ACA')" href="#ID0E0RB0ACA"><dt><span class="esriElement">Field</span> ACCOUNTING</dt> 
+		<span id="ID0E0RB0ACAShow" class="hide">▼</span><span id="ID0E0RB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0RB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Hydrologic accounting unit (6 digit HUC) of the gage</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0RB0ACA')" href="#ID0E0RB0ACA">Hide Field ACCOUNTING ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0QB0ACA')" href="#ID0E0QB0ACA"><dt><span class="esriElement">Field</span> Shape</dt> 
+		<span id="ID0E0QB0ACAShow" class="hide">▼</span><span id="ID0E0QB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0QB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Feature geometry.</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">ESRI</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Coordinates defining the features.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0E0QB0ACA')" href="#ID0E0QB0ACA">Hide Field Shape ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0PB0ACA')" href="#ID0E0PB0ACA"><dt><span class="esriElement">Field</span> FID_sites</dt> 
+		<span id="ID0E0PB0ACAShow" class="hide">▼</span><span id="ID0E0PB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0PB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Internal identifier</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0PB0ACA')" href="#ID0E0PB0ACA">Hide Field FID_sites ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0OB0ACA')" href="#ID0E0OB0ACA"><dt><span class="esriElement">Field</span> AGENCY_CD</dt> 
+		<span id="ID0E0OB0ACAShow" class="hide">▼</span><span id="ID0E0OB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0OB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Gov. Agency responsible for the streamgage</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0OB0ACA')" href="#ID0E0OB0ACA">Hide Field AGENCY_CD ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0NB0ACA')" href="#ID0E0NB0ACA"><dt><span class="esriElement">Field</span> SITE_NO</dt> 
+		<span id="ID0E0NB0ACAShow" class="hide">▼</span><span id="ID0E0NB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0NB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">USGS Station/Site identification number</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0NB0ACA')" href="#ID0E0NB0ACA">Hide Field SITE_NO ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0MB0ACA')" href="#ID0E0MB0ACA"><dt><span class="esriElement">Field</span> STATION_NM</dt> 
+		<span id="ID0E0MB0ACAShow" class="hide">▼</span><span id="ID0E0MB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0MB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Station name</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0MB0ACA')" href="#ID0E0MB0ACA">Hide Field STATION_NM ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0LB0ACA')" href="#ID0E0LB0ACA"><dt><span class="esriElement">Field</span> STATE_CD</dt> 
+		<span id="ID0E0LB0ACAShow" class="hide">▼</span><span id="ID0E0LB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0LB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">2 digit state FIPS code of the WSC maintaining the gage. Puerto Rico is listed as a state.</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0LB0ACA')" href="#ID0E0LB0ACA">Hide Field STATE_CD ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0KB0ACA')" href="#ID0E0KB0ACA"><dt><span class="esriElement">Field</span> STATE</dt> 
+		<span id="ID0E0KB0ACAShow" class="hide">▼</span><span id="ID0E0KB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0KB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">2 char. state postal abrev. of the WSC maintaining the gage. Puerto Rico is listed as a state.</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0KB0ACA')" href="#ID0E0KB0ACA">Hide Field STATE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0JB0ACA')" href="#ID0E0JB0ACA"><dt><span class="esriElement">Field</span> SITESTATUS</dt> 
+		<span id="ID0E0JB0ACAShow" class="hide">▼</span><span id="ID0E0JB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0JB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Active (A) or Inactive (I) where active streamgages contain streamflow data in 2003 and/or 2004</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0JB0ACA')" href="#ID0E0JB0ACA">Hide Field SITESTATUS ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0IB0ACA')" href="#ID0E0IB0ACA"><dt><span class="esriElement">Field</span> DA_SQ_MILE</dt> 
+		<span id="ID0E0IB0ACAShow" class="hide">▼</span><span id="ID0E0IB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0IB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Reported drainage area in square miles. Stations with  DA of -999999 means there is no reported DA in NWIS.</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0IB0ACA')" href="#ID0E0IB0ACA">Hide Field DA_SQ_MILE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0HB0ACA')" href="#ID0E0HB0ACA"><dt><span class="esriElement">Field</span> LON_SITE</dt> 
+		<span id="ID0E0HB0ACAShow" class="hide">▼</span><span id="ID0E0HB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0HB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Longitude of the streamgage (site) location - gage house in decimal degrees, NAD83</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0HB0ACA')" href="#ID0E0HB0ACA">Hide Field LON_SITE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0GB0ACA')" href="#ID0E0GB0ACA"><dt><span class="esriElement">Field</span> LAT_SITE</dt> 
+		<span id="ID0E0GB0ACAShow" class="hide">▼</span><span id="ID0E0GB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0GB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Latitude of the streamgage (site) location  - gage house in decimal degrees, NAD83</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">Esri</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Sequential unique whole numbers that are automatically generated.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0E0GB0ACA')" href="#ID0E0GB0ACA">Hide Field LAT_SITE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0FB0ACA')" href="#ID0E0FB0ACA"><dt><span class="esriElement">Field</span> FID</dt> 
+		<span id="ID0E0FB0ACAShow" class="hide">▼</span><span id="ID0E0FB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0FB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Internal feature number.</pre><br /></dd></dl><dt><span class="esriElement">Description source</span></dt><dl><dd><pre class="wrap">ESRI</pre><br /></dd></dl><dt><span class="esriElement">Description of values</span></dt><dl><dd><pre class="wrap">Sequential unique whole numbers that are automatically generated.</pre><br /></dd></dl><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0E0FB0ACA')" href="#ID0E0FB0ACA">Hide Field FID ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0EB0ACA')" href="#ID0E0EB0ACA"><dt><span class="esriElement">Field</span> LON_NHD</dt> 
+		<span id="ID0E0EB0ACAShow" class="hide">▼</span><span id="ID0E0EB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0EB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Longitude of the NHD location in decimal degrees, NAD83</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0EB0ACA')" href="#ID0E0EB0ACA">Hide Field LON_NHD ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0DB0ACA')" href="#ID0E0DB0ACA"><dt><span class="esriElement">Field</span> LAT_NHD</dt> 
+		<span id="ID0E0DB0ACAShow" class="hide">▼</span><span id="ID0E0DB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0DB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Latitude of the NHD location in decimal degrees, NAD83</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0DB0ACA')" href="#ID0E0DB0ACA">Hide Field LAT_NHD ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0CB0ACA')" href="#ID0E0CB0ACA"><dt><span class="esriElement">Field</span> REVIEWED</dt> 
+		<span id="ID0E0CB0ACAShow" class="hide">▼</span><span id="ID0E0CB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0CB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Flag to indicate review status - Y or N</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0CB0ACA')" href="#ID0E0CB0ACA">Hide Field REVIEWED ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0BB0ACA')" href="#ID0E0BB0ACA"><dt><span class="esriElement">Field</span> BFIYRS</dt> 
+		<span id="ID0E0BB0ACAShow" class="hide">▼</span><span id="ID0E0BB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0BB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Number of years used in the base-flow index computation</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0BB0ACA')" href="#ID0E0BB0ACA">Hide Field BFIYRS ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E0AB0ACA')" href="#ID0E0AB0ACA"><dt><span class="esriElement">Field</span> BFI_AVE</dt> 
+		<span id="ID0E0AB0ACAShow" class="hide">▼</span><span id="ID0E0AB0ACAHide" class="show">►</span></a><div class="show" id="ID0E0AB0ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Average annual base-flow index value</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E0AB0ACA')" href="#ID0E0AB0ACA">Hide Field BFI_AVE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E6ACA')" href="#ID0E6ACA"><dt><span class="esriElement">Field</span> BFI_STDEV</dt> 
+		<span id="ID0E6ACAShow" class="hide">▼</span><span id="ID0E6ACAHide" class="show">►</span></a><div class="show" id="ID0E6ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Standard deviation of annual base-flow index</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E6ACA')" href="#ID0E6ACA">Hide Field BFI_STDEV ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E5ACA')" href="#ID0E5ACA"><dt><span class="esriElement">Field</span> GOTBFI</dt> 
+		<span id="ID0E5ACAShow" class="hide">▼</span><span id="ID0E5ACAHide" class="show">►</span></a><div class="show" id="ID0E5ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Data flag for BFI</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E5ACA')" href="#ID0E5ACA">Hide Field GOTBFI ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E4ACA')" href="#ID0E4ACA"><dt><span class="esriElement">Field</span> DAY1</dt> 
+		<span id="ID0E4ACAShow" class="hide">▼</span><span id="ID0E4ACAHide" class="show">►</span></a><div class="show" id="ID0E4ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">First date of flow data (yyyymmdd)</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E4ACA')" href="#ID0E4ACA">Hide Field DAY1 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E3ACA')" href="#ID0E3ACA"><dt><span class="esriElement">Field</span> DAYN</dt> 
+		<span id="ID0E3ACAShow" class="hide">▼</span><span id="ID0E3ACAHide" class="show">►</span></a><div class="show" id="ID0E3ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Last date of flow data (yyyymmdd)</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E3ACA')" href="#ID0E3ACA">Hide Field DAYN ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E2ACA')" href="#ID0E2ACA"><dt><span class="esriElement">Field</span> NDAYS</dt> 
+		<span id="ID0E2ACAShow" class="hide">▼</span><span id="ID0E2ACAHide" class="show">►</span></a><div class="show" id="ID0E2ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Number of days of flow</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E2ACA')" href="#ID0E2ACA">Hide Field NDAYS ▲</a></div></div><br /><br /><a onclick="hideShow('ID0E1ACA')" href="#ID0E1ACA"><dt><span class="esriElement">Field</span> NDAYSGT0</dt> 
+		<span id="ID0E1ACAShow" class="hide">▼</span><span id="ID0E1ACAHide" class="show">►</span></a><div class="show" id="ID0E1ACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Number of days of non-zero flow</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0E1ACA')" href="#ID0E1ACA">Hide Field NDAYSGT0 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EZACA')" href="#ID0EZACA"><dt><span class="esriElement">Field</span> MIN_</dt> 
+		<span id="ID0EZACAShow" class="hide">▼</span><span id="ID0EZACAHide" class="show">►</span></a><div class="show" id="ID0EZACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Minimum daily flow for the period of record</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EZACA')" href="#ID0EZACA">Hide Field MIN_ ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EYACA')" href="#ID0EYACA"><dt><span class="esriElement">Field</span> P1</dt> 
+		<span id="ID0EYACAShow" class="hide">▼</span><span id="ID0EYACAHide" class="show">►</span></a><div class="show" id="ID0EYACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">1st percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EYACA')" href="#ID0EYACA">Hide Field P1 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EXACA')" href="#ID0EXACA"><dt><span class="esriElement">Field</span> P5</dt> 
+		<span id="ID0EXACAShow" class="hide">▼</span><span id="ID0EXACAHide" class="show">►</span></a><div class="show" id="ID0EXACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">5th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EXACA')" href="#ID0EXACA">Hide Field P5 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EWACA')" href="#ID0EWACA"><dt><span class="esriElement">Field</span> P10</dt> 
+		<span id="ID0EWACAShow" class="hide">▼</span><span id="ID0EWACAHide" class="show">►</span></a><div class="show" id="ID0EWACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">10th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EWACA')" href="#ID0EWACA">Hide Field P10 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EVACA')" href="#ID0EVACA"><dt><span class="esriElement">Field</span> P20</dt> 
+		<span id="ID0EVACAShow" class="hide">▼</span><span id="ID0EVACAHide" class="show">►</span></a><div class="show" id="ID0EVACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">20th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EVACA')" href="#ID0EVACA">Hide Field P20 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EUACA')" href="#ID0EUACA"><dt><span class="esriElement">Field</span> P25</dt> 
+		<span id="ID0EUACAShow" class="hide">▼</span><span id="ID0EUACAHide" class="show">►</span></a><div class="show" id="ID0EUACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">25th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EUACA')" href="#ID0EUACA">Hide Field P25 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ETACA')" href="#ID0ETACA"><dt><span class="esriElement">Field</span> P30</dt> 
+		<span id="ID0ETACAShow" class="hide">▼</span><span id="ID0ETACAHide" class="show">►</span></a><div class="show" id="ID0ETACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">30th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ETACA')" href="#ID0ETACA">Hide Field P30 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ESACA')" href="#ID0ESACA"><dt><span class="esriElement">Field</span> P40</dt> 
+		<span id="ID0ESACAShow" class="hide">▼</span><span id="ID0ESACAHide" class="show">►</span></a><div class="show" id="ID0ESACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">40th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ESACA')" href="#ID0ESACA">Hide Field P40 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ERACA')" href="#ID0ERACA"><dt><span class="esriElement">Field</span> P50</dt> 
+		<span id="ID0ERACAShow" class="hide">▼</span><span id="ID0ERACAHide" class="show">►</span></a><div class="show" id="ID0ERACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">50th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ERACA')" href="#ID0ERACA">Hide Field P50 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EQACA')" href="#ID0EQACA"><dt><span class="esriElement">Field</span> P60</dt> 
+		<span id="ID0EQACAShow" class="hide">▼</span><span id="ID0EQACAHide" class="show">►</span></a><div class="show" id="ID0EQACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">60th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EQACA')" href="#ID0EQACA">Hide Field P60 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EPACA')" href="#ID0EPACA"><dt><span class="esriElement">Field</span> P70</dt> 
+		<span id="ID0EPACAShow" class="hide">▼</span><span id="ID0EPACAHide" class="show">►</span></a><div class="show" id="ID0EPACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">70th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EPACA')" href="#ID0EPACA">Hide Field P70 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EOACA')" href="#ID0EOACA"><dt><span class="esriElement">Field</span> P75</dt> 
+		<span id="ID0EOACAShow" class="hide">▼</span><span id="ID0EOACAHide" class="show">►</span></a><div class="show" id="ID0EOACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">75th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EOACA')" href="#ID0EOACA">Hide Field P75 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ENACA')" href="#ID0ENACA"><dt><span class="esriElement">Field</span> P80</dt> 
+		<span id="ID0ENACAShow" class="hide">▼</span><span id="ID0ENACAHide" class="show">►</span></a><div class="show" id="ID0ENACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">80th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ENACA')" href="#ID0ENACA">Hide Field P80 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EMACA')" href="#ID0EMACA"><dt><span class="esriElement">Field</span> P90</dt> 
+		<span id="ID0EMACAShow" class="hide">▼</span><span id="ID0EMACAHide" class="show">►</span></a><div class="show" id="ID0EMACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">90th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EMACA')" href="#ID0EMACA">Hide Field P90 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ELACA')" href="#ID0ELACA"><dt><span class="esriElement">Field</span> P95</dt> 
+		<span id="ID0ELACAShow" class="hide">▼</span><span id="ID0ELACAHide" class="show">►</span></a><div class="show" id="ID0ELACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">95th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ELACA')" href="#ID0ELACA">Hide Field P95 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EKACA')" href="#ID0EKACA"><dt><span class="esriElement">Field</span> P99</dt> 
+		<span id="ID0EKACAShow" class="hide">▼</span><span id="ID0EKACAHide" class="show">►</span></a><div class="show" id="ID0EKACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">99th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EKACA')" href="#ID0EKACA">Hide Field P99 ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EJACA')" href="#ID0EJACA"><dt><span class="esriElement">Field</span> MAX_</dt> 
+		<span id="ID0EJACAShow" class="hide">▼</span><span id="ID0EJACAHide" class="show">►</span></a><div class="show" id="ID0EJACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Maximum daily flow for the period of record</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EJACA')" href="#ID0EJACA">Hide Field MAX_ ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EIACA')" href="#ID0EIACA"><dt><span class="esriElement">Field</span> AVE</dt> 
+		<span id="ID0EIACAShow" class="hide">▼</span><span id="ID0EIACAHide" class="show">►</span></a><div class="show" id="ID0EIACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Average daily flow for the period of record</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EIACA')" href="#ID0EIACA">Hide Field AVE ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EHACA')" href="#ID0EHACA"><dt><span class="esriElement">Field</span> STDEV</dt> 
+		<span id="ID0EHACAShow" class="hide">▼</span><span id="ID0EHACAHide" class="show">►</span></a><div class="show" id="ID0EHACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Standard deviation of flow for daily the period of record</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EHACA')" href="#ID0EHACA">Hide Field STDEV ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EGACA')" href="#ID0EGACA"><dt><span class="esriElement">Field</span> GOTQ</dt> 
+		<span id="ID0EGACAShow" class="hide">▼</span><span id="ID0EGACAHide" class="show">►</span></a><div class="show" id="ID0EGACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Flag indicating flow data (1) or no flow data (0)</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EGACA')" href="#ID0EGACA">Hide Field GOTQ ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EFACA')" href="#ID0EFACA"><dt><span class="esriElement">Field</span> NWISWEB</dt> 
+		<span id="ID0EFACAShow" class="hide">▼</span><span id="ID0EFACAHide" class="show">►</span></a><div class="show" id="ID0EFACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">URL to the station's NWISWeb home page.</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EFACA')" href="#ID0EFACA">Hide Field NWISWEB ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EEACA')" href="#ID0EEACA"><dt><span class="esriElement">Field</span> HUC</dt> 
+		<span id="ID0EEACAShow" class="hide">▼</span><span id="ID0EEACAHide" class="show">►</span></a><div class="show" id="ID0EEACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Hydrologic Cataloging Unit (8 digit HUC) of the gage</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EEACA')" href="#ID0EEACA">Hide Field HUC ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EDACA')" href="#ID0EDACA"><dt><span class="esriElement">Field</span> HUC_REG</dt> 
+		<span id="ID0EDACAShow" class="hide">▼</span><span id="ID0EDACAHide" class="show">►</span></a><div class="show" id="ID0EDACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Hydrologic Region (2 digit HUC) of the gage</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EDACA')" href="#ID0EDACA">Hide Field HUC_REG ▲</a></div></div><br /><br /><a onclick="hideShow('ID0ECACA')" href="#ID0ECACA"><dt><span class="esriElement">Field</span> SUBREGIONS</dt> 
+		<span id="ID0ECACAShow" class="hide">▼</span><span id="ID0ECACAHide" class="show">►</span></a><div class="show" id="ID0ECACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Hydrologic sub-region (4 digit HUC) of the gage</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0ECACA')" href="#ID0ECACA">Hide Field SUBREGIONS ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EBACA')" href="#ID0EBACA"><dt><span class="esriElement">Field</span> FID_SITES</dt> 
+		<span id="ID0EBACAShow" class="hide">▼</span><span id="ID0EBACAHide" class="show">►</span></a><div class="show" id="ID0EBACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Internal Identifer</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EBACA')" href="#ID0EBACA">Hide Field FID_SITES ▲</a></div></div><br /><br /><a onclick="hideShow('ID0EAACA')" href="#ID0EAACA"><dt><span class="esriElement">Field</span> NHD2GAGE_D</dt> 
+		<span id="ID0EAACAShow" class="hide">▼</span><span id="ID0EAACAHide" class="show">►</span></a><div class="show" id="ID0EAACA"><dl><dt><span class="esriElement">Field description</span></dt><dl><dd><pre class="wrap">Distance between the NHD location and the gage house location, in meters</pre><br /></dd></dl></dl><div class="backToTop"><a onclick="hideShow('ID0EAACA')" href="#ID0EAACA">Hide Field NHD2GAGE_D ▲</a></div></div><br /><br /></dl><div class="backToTop"><a onclick="hideShow('ID0EACA')" href="#ID0EACA">Hide Details for object USGS_stream_gauges ▲</a></div></div><br /><br /><div class="backToTop" style="margin-left: 0;"><a onclick="hideShow('ID0ECA')" href="#ID0ECA">Hide Fields ▲</a></div></div></div></div><h2 class="fgdc head"><a href="#fgdcMetadata" onclick="hideShow('fgdcMetadata')" title="Content created in the 9.3.1 FGDC metadata editor, and managed with the USGS MP Metadata Translator tool. Upgrade to ArcGIS Metadata to manage this content here, in the Description tab.">FGDC Metadata (read-only) <span id="fgdcMetadataShow" class="show">▼</span><span id="fgdcMetadataHide" class="hide">►</span></a></h2><div class="hide" id="fgdcMetadata" xmlns=""><div class="box fgdc"><div><a name="TopFGDC" id="TopFGDC" /></div><div><h2 class="fgdc"><a onclick="hideShow('ID0EFA')" href="#ID0EFA">Identification 
+			<span id="ID0EFAShow" class="hide">▼</span><span id="ID0EFAHide" class="show">►</span></a></h2><div class="show" id="ID0EFA"><dl><dd><dl><dt><span class="element">Citation</span></dt><dd><dl><dt><span class="element">Citation Information</span></dt><dd><dl><dt><span class="element">Title</span></dt><dd><span class="textOld">USGS_stream_gauges</span></dd><dt><span class="element">Geospatial Data Presentation Form</span> <span class="textOld">vector digital data</span></dt></dl></dd><br /></dl></dd><dt><span class="element">Spatial Domain</span></dt><dd><dl><dt><span class="element">Bounding Coordinates</span></dt><dd><dl><dt><span class="element">West Bounding Coordinate</span> <span class="textOld">-159.750305</span></dt><dt><span class="element">East Bounding Coordinate</span> <span class="textOld">-65.302467</span></dt><dt><span class="element">North Bounding Coordinate</span> <span class="textOld">48.999947</span></dt><dt><span class="element">South Bounding Coordinate</span> <span class="textOld">17.956547</span></dt></dl></dd></dl></dd><br /><dt><span class="element">Access Constraints</span></dt><dl><dd><pre class="wrap"><span class="textOld">None</span></pre></dd></dl><dt><span class="element">Use Constraints</span></dt><dl><dd><pre class="wrap"><span class="textOld">None</span></pre></dd></dl><dt><span class="element">Native Data Set Environment</span></dt><dd><span class="textOld"> Version 6.2 (Build 9200) ; Esri ArcGIS 10.4.1.5686</span></dd></dl></dd></dl><br /><div class="backToTop"><a onclick="hideShow('ID0EFA')" href="#ID0EFA">Hide Identification  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EEA')" href="#ID0EEA">Spatial Data Organization 
+			<span id="ID0EEAShow" class="hide">▼</span><span id="ID0EEAHide" class="show">►</span></a></h2><div class="show" id="ID0EEA"><dl><dd><dl><dt><span class="element">Direct Spatial Reference Method</span> <span class="textOld">Vector</span></dt><br /><br /><dt><span class="element">Point and Vector Object Information</span></dt><dd><dl><dt><span class="element">SDTS Terms Description</span></dt><dd><dl><dt><span class="element">SDTS Point and Vector Object Type</span> <span class="textOld">Entity point</span></dt><dt><span class="element">Point and Vector Object Count</span> <span class="textOld">23426</span></dt></dl></dd><br /></dl></dd></dl></dd></dl><div class="backToTop"><a onclick="hideShow('ID0EEA')" href="#ID0EEA">Hide Spatial Data Organization  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EDA')" href="#ID0EDA">Spatial Reference 
+			<span id="ID0EDAShow" class="hide">▼</span><span id="ID0EDAHide" class="show">►</span></a></h2><div class="show" id="ID0EDA"><dl><dd><dl><dt><span class="element">Horizontal Coordinate System Definition</span></dt><dd><dl><dt><span class="element">Geographic</span></dt><dd><dl><dt><span class="element">Latitude Resolution</span> <span class="textOld">8.9831528411952133e-009</span></dt><dt><span class="element">Longitude Resolution</span> <span class="textOld">8.9831528411952133e-009</span></dt><dt><span class="element">Geographic Coordinate Units</span> <span class="textOld">Decimal Degrees</span></dt></dl></dd><br /><dt><span class="element">Geodetic Model</span></dt><dd><dl><dt><span class="element">Horizontal Datum Name</span> <span class="textOld">D North American 1983</span></dt><dt><span class="element">Ellipsoid Name</span> <span class="textOld">GRS 1980</span></dt><dt><span class="element">Semi-major Axis</span> <span class="textOld">6378137.0</span></dt><dt><span class="element">Denominator of Flattening Ratio</span> <span class="textOld">298.257222101</span></dt></dl></dd></dl></dd><br /></dl></dd></dl><div class="backToTop"><a onclick="hideShow('ID0EDA')" href="#ID0EDA">Hide Spatial Reference  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Entities and Attributes 
+				<span id="/metadata/eainfo//text()[1]Show" class="hide">▼</span><span id="/metadata/eainfo//text()[1]Hide" class="show">►</span></a></h2><div class="show" id="/metadata/eainfo//text()[1]"><a name="Entity and Attribute Information" id="Entity and Attribute Information" /><dl><dd><dl><dt><span class="element">Detailed Description</span></dt><dd><dl><dt><span class="element">Entity Type</span></dt><dd><dl><dt><span class="element">Entity Type Label</span> <span class="textOld">USGS_stream_gauges</span></dt></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">ACCOUNTING</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Hydrologic accounting unit (6 digit HUC) of the gage</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">Shape</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Feature geometry.</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">ESRI</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Coordinates defining the features.</span></dd></dl></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">FID_sites</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Internal identifier</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">AGENCY_CD</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Gov. Agency responsible for the streamgage</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SITE_NO</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">USGS Station/Site identification number</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">STATION_NM</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Station name</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">STATE_CD</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">2 digit state FIPS code of the WSC maintaining the gage. Puerto Rico is listed as a state.</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">STATE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">2 char. state postal abrev. of the WSC maintaining the gage. Puerto Rico is listed as a state.</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SITESTATUS</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Active (A) or Inactive (I) where active streamgages contain streamflow data in 2003 and/or 2004</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">DA_SQ_MILE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Reported drainage area in square miles. Stations with  DA of -999999 means there is no reported DA in NWIS.</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">LON_SITE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Longitude of the streamgage (site) location - gage house in decimal degrees, NAD83</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">LAT_SITE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Latitude of the streamgage (site) location  - gage house in decimal degrees, NAD83</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">Esri</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Sequential unique whole numbers that are automatically generated.</span></dd></dl></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">FID</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Internal feature number.</span></dd><dt><span class="element">Attribute Definition Source</span> <span class="textOld">ESRI</span></dt><dt><span class="element">Attribute Domain Values</span></dt><dd><dl><dt><span class="element">Unrepresentable Domain</span></dt><dd><span class="textOld">Sequential unique whole numbers that are automatically generated.</span></dd></dl></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">LON_NHD</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Longitude of the NHD location in decimal degrees, NAD83</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">LAT_NHD</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Latitude of the NHD location in decimal degrees, NAD83</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">REVIEWED</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Flag to indicate review status - Y or N</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">BFIYRS</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Number of years used in the base-flow index computation</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">BFI_AVE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Average annual base-flow index value</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">BFI_STDEV</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Standard deviation of annual base-flow index</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">GOTBFI</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Data flag for BFI</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">DAY1</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">First date of flow data (yyyymmdd)</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">DAYN</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Last date of flow data (yyyymmdd)</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NDAYS</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Number of days of flow</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NDAYSGT0</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Number of days of non-zero flow</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">MIN_</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Minimum daily flow for the period of record</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P1</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">1st percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P5</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">5th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P10</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">10th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P20</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">20th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P25</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">25th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P30</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">30th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P40</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">40th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P50</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">50th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P60</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">60th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P70</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">70th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P75</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">75th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P80</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">80th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P90</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">90th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P95</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">95th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">P99</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">99th percentile of daily flow for the period of record. Negative values indicate reverse flow; tidal or backwater</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">MAX_</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Maximum daily flow for the period of record</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">AVE</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Average daily flow for the period of record</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">STDEV</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Standard deviation of flow for daily the period of record</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">GOTQ</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Flag indicating flow data (1) or no flow data (0)</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NWISWEB</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">URL to the station's NWISWeb home page.</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">HUC</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Hydrologic Cataloging Unit (8 digit HUC) of the gage</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">HUC_REG</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Hydrologic Region (2 digit HUC) of the gage</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">SUBREGIONS</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Hydrologic sub-region (4 digit HUC) of the gage</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">FID_SITES</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Internal Identifer</span></dd></dl></dd><br /><dt><span class="element">Attribute</span></dt><dd><dl><dt><span class="element">Attribute Label</span> <span class="textOld">NHD2GAGE_D</span></dt><dt><span class="element">Attribute Definition</span></dt><dd><span class="textOld">Distance between the NHD location and the gage house location, in meters</span></dd></dl></dd><br /></dl></dd></dl></dd></dl><div class="backToTop"><a onclick="hideShow('/metadata/eainfo//text()[1]')" href="#/metadata/eainfo//text()[1]">Hide Entities and Attributes ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EBA')" href="#ID0EBA">Distribution Information 
+			<span id="ID0EBAShow" class="hide">▼</span><span id="ID0EBAHide" class="show">►</span></a></h2><div class="show" id="ID0EBA"><dl><dd><dl><dt><span class="element">Distribution Liability</span></dt><dl><dd><pre class="wrap"><span class="textOld">See access and use constraints information.</span></pre></dd></dl><dt><span class="element">Standard Order Process</span></dt><dd><dl><dt><span class="element">Digital Form</span></dt><dd><dl><dt><span class="element">Digital Transfer Information</span></dt><dd><dl><dt><span class="element">Format Name</span> <span class="textOld">Shapefile</span></dt><dt><span class="element">Transfer Size</span> <span class="textOld">0.626</span></dt></dl></dd><br /><dt><span class="element">Digital Transfer Option</span></dt><dd><dl /></dd></dl></dd></dl></dd></dl></dd></dl><div class="backToTop"><a onclick="hideShow('ID0EBA')" href="#ID0EBA">Hide Distribution Information  ▲</a></div></div><h2 class="fgdc"><a onclick="hideShow('ID0EAA')" href="#ID0EAA">Metadata Reference 
+			<span id="ID0EAAShow" class="hide">▼</span><span id="ID0EAAHide" class="show">►</span></a></h2><div class="show" id="ID0EAA"><dl><dd><dl><dt><span class="element">Metadata Date</span> <span class="textOld">2018-07-13</span></dt><dt><span class="element">Metadata Standard Name</span> <span class="textOld">FGDC Content Standard for Digital Geospatial Metadata</span></dt><dt><span class="element">Metadata Standard Version</span> <span class="textOld">FGDC-STD-001-1998</span></dt><dt><span class="element">Metadata Time Convention</span> <span class="textOld">local time</span></dt><br /><br /></dl></dd></dl><br /><div class="backToTop"><a onclick="hideShow('ID0EAA')" href="#ID0EAA">Hide Metadata Reference  ▲</a></div></div></div></div></div></body></html>
