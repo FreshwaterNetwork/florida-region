@@ -50,7 +50,7 @@
    "identifyEnabled": true,
     "launchpad": {
             "title": "Explore Florida Freshwater",
-            "description": "<p>With thousands of lakes, scenic rivers, more springs than anywhere else in the world and the unique Everglades ecosystem, freshwater is an integral part of Florida’s iconic landscape. But in the state with the third highest population in the country, over 20 million people, freshwater cannot be taken for granted. The mapping tools below allow you to explore data relevant to Florida’s freshwater resources.</p>",
+            "description": "<p>With thousands of lakes, scenic rivers, more springs than anywhere else in the world and the unique Everglades ecosystem, freshwater is an integral part of Florida’s iconic landscape. Yet, in the state with the third largest population in the country - over 20 million people - freshwater cannot be taken for granted. The mapping tools below allow you to explore data relevant to Florida’s freshwater resources.</p>",
             "plugins": [
 				{
 					"title": "Sedimentation",
