@@ -27,14 +27,12 @@
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" }
     ],
     "pluginOrder": [
-		"launchpad",
 		"regional-planning",
 		"Aquifers",
-	    "zoom_to",
+	     "zoom_to",
         "measure",
         "legend_display",
-        "full_extent",
-        "subregion_toggle",
+        "full_extent"
 
     ],
     "print": {
