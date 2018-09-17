@@ -9,7 +9,7 @@
         },
         "includeLayers": [
             {
-               "name": "Supplementary",
+               "name": "Supplemental Layers",
 			   "includeAllLayers": true
 			},
 			{
