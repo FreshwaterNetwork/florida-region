@@ -59,7 +59,7 @@
 				},
 				{
 					"title": "Aquifers",
-					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the Florida Springs region and developed a map ofhow water useand nitrogenloads vary across it.Use this app to examine the results of the analysis.  Read a<a href=’img/AFA Summary formatted 12Dec2018'target='_blank'><b> short summary</b><a></br>of the project or the <a href='docs/AFA Final Report web.pdf' target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_12Dec2018.gif'>",
+					"description": "The Floridan aquifer is the major source of drinking water for Florida. The Howard T. Odum Florida Springs Institute completed a study for The Nature Conservancy that looked at the Florida Springs region and developed a map ofhow water useand nitrogenloads vary across it.Use this app to examine the results of the analysis.  Read a<a href='docs/AFA Summary formatted 12Dec2018' target='_blank'><b> short summary</b><a></br>of the project or the <a href='docs/AFA Final Report web.pdf' target='_blank'><b> full report</b><a></br>. <img src='img/GS_aquifer_12Dec2018.gif'>",
 					"pluginName": "Aquifers"
 				}
             ]
